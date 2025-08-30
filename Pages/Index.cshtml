@@ -1,0 +1,270 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Camp Password Manager";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camp Password Manager - Secure Password Management by Camp</title>
+    <meta name="description" content="Camp Password Manager by Camp offers secure management of your passwords and sensitive information. Download the installer compatible with ARM, x64, or x86 architectures.">
+    <meta name="keywords" content="Camp Password Manager, password manager, secure password management, Camp, Camp Member, password security, ARM, x64, x86">
+    <meta property="og:title" content="Camp Password Manager - Secure Password Management by Camp">
+    <meta property="og:description" content="Camp Password Manager by Camp provides a secure and efficient way to manage your passwords and sensitive data. Compatible with ARM, x64, and x86 architectures.">
+    <meta property="og:image" content="https://yourwebsite.com/Assets/CampLogoTransparency.png">
+    <meta property="og:url" content="https://yourwebsite.com/current-page-url">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Camp">
+    <link rel="icon" href="~/Assets/favicon.ico" type="image/x-icon">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+          "name": "Camp Password Manager",
+          "description": "Camp Password Manager by Camp offers secure management of your passwords and sensitive information. Download the installer compatible with ARM, x64, or x86 architectures.",
+          "url": "https://yourwebsite.com/current-page-url",
+          "image": "https://yourwebsite.com/Assets/CampLogoTransparency.png",
+          "publisher": {
+            "name": "Camp",
+            "logo": {
+              "url": "https://yourwebsite.com/Assets/CampLogoTransparency.png"
+            }
+          }
+        }
+    </script>
+
+
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/stylesheet.css">
+
+
+
+
+
+
+
+
+    <script>
+        function detectArchitecture() {
+            let detectedArchitecture = "Unknown"; // Default value
+
+            // Modern approach using userAgentData API
+            if (navigator.userAgentData) {
+                navigator.userAgentData.getHighEntropyValues(['architecture'])
+                    .then(ua => {
+                        detectedArchitecture = ua.architecture || "Unknown";
+                        updateContent(detectedArchitecture);
+                    })
+                    .catch(() => {
+                        updateContent("Unknown");
+                    });
+            } else {
+                // Fallback approach using userAgent string
+                const ua = navigator.userAgent;
+                if (ua.includes("ARM")) detectedArchitecture = "ARM";
+                else if (ua.includes("x64") || ua.includes("Win64")) detectedArchitecture = "x64";
+                else if (ua.includes("x86")) detectedArchitecture = "x86";
+
+                // Further check if x86 is 64-bit
+                if (detectedArchitecture === "x86" && navigator.platform.includes("Win64")) {
+                    detectedArchitecture = "x64";
+                }
+
+                // Ensure x86 is treated as x64 for 64-bit systems
+                if (detectedArchitecture === "x86" && navigator.userAgent.includes("64")) {
+                    detectedArchitecture = "x64";
+                }
+
+                updateContent(detectedArchitecture);
+            }
+        }
+
+        function updateContent(architecture) {
+            const downloadLinkElement = document.getElementById('downloadLink');
+            const downloadTextElement = document.getElementById('downloadText');
+
+            // Use the Razor syntax to embed session variables directly into JavaScript
+            const armDownloadUrl = '@HttpContext.Session.GetString("ArmDownloadUrl")';
+            const x64DownloadUrl = '@HttpContext.Session.GetString("X64DownloadUrl")';
+
+            let downloadUrl;
+            let displayText;
+
+            switch (architecture.toLowerCase()) {
+                case "arm":
+                    downloadUrl = armDownloadUrl;
+                    displayText = "ARM installer";
+                    break;
+                case "x64":
+                    downloadUrl = x64DownloadUrl;
+                    displayText = "x64 installer";
+                    break;
+                case "x86":
+                    downloadUrl = x64DownloadUrl; // Always use x64 installer for x86 detection
+                    displayText = "x64 installer";
+                    break;
+                default:
+                    downloadUrl = "#";
+                    displayText = "installer";
+                    break;
+            }
+
+            // Update the page elements
+            downloadLinkElement.href = downloadUrl;
+            downloadTextElement.textContent = `${displayText}`;
+        }
+
+        window.onload = function () {
+            detectArchitecture();
+        };
+    </script>
+
+
+
+    <style>
+
+
+        html, body {
+            height: 100%; /* Ensure the body takes full height */
+            margin: 0; /* Remove default margin */
+            position: relative; /* Position for the overlay */
+        }
+
+        body {
+/*             background-image: url('https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/19.png'); /* Background image */ */
+/*             background-size: cover; /* Cover the entire viewport */ */
+/*             background-position: center; /* Center the image */ */
+/*             background-repeat: no-repeat; /* Prevent tiling */ */
+        }
+
+
+
+
+        .HomeBodyContainer {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 12px;
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 40px 120px; /* wider horizontal padding */
+            z-index: 1;
+            width: calc(90vw - 20px) !important; /* decrease width by 20px */
+            max-width: none !important;
+            box-sizing: border-box;
+        }
+
+
+
+
+
+
+        /* Overlay for dimming effect */
+        body::before {
+            content: '';
+            position: fixed; /* Fixed to cover the whole viewport */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7); /* Black overlay with 50% opacity */
+            z-index: 0; /* Behind the content */
+        }
+
+
+        .display-4
+        {
+            margin-top: -45px;
+        }
+
+        .lead
+        {
+            margin-top: 15px;
+        }
+
+        .button-container
+        {
+            padding-bottom:15px;
+        }
+
+
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="HomeBodyContainer">
+        <!-- Logo section -->
+        <div class="text-center" style="margin-bottom: 32px;">
+            <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/CampLogoTransparency.png"
+                 alt="Camp Password Manager Logo"
+                 class="img-fluid"
+                 style="max-width: 150px;">
+        </div>
+
+        <!-- Page content -->
+        <div class="text-center" style="margin-bottom: 0;">
+            <h1 class="display-4" style="margin-bottom: 2px;">Camp Password Manager</h1>
+            <p class="lead" style="margin-top: 0; margin-bottom: 0;">Securely manage your passwords and sensitive information.</p>
+        </div>
+
+        <!-- MS Store button -->
+        <div class="text-center" style="margin-top: 70px !important;">
+            <div class="button-container" style="margin-bottom: -6px;">
+                <a href="https://apps.microsoft.com/store/detail/9P9HZ2CQ9X0Q?cid=DevShareMCLPCS" target="_blank">
+                    <img src="~/Assets/English_get.svg" alt="Get it from Microsoft" class="img-fluid" width="111">
+                </a>
+                <div style="margin-top: 6px; margin-bottom: -6px;">
+                    <span>Download from <span class="gradient-text">Microsoft Store</span></span>
+                </div>
+            </div>
+
+            <div class="button-container" style="margin-bottom: 0;">
+                <a id="downloadLink" href="#" download>
+                    <img src="~/Assets/DownloadButton.svg" alt="Download installer" class="img-fluid" width="111">
+                </a>
+                <div style="margin-top: 6px; margin-bottom: -6px;">
+                    <span>Download <strong id="downloadText">installer</strong></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional: Bootstrap JavaScript (if needed) -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+</body>
+</html>

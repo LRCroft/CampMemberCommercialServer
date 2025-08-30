@@ -1,0 +1,1558 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_campmember_forgetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_campmember_forgetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\hotagency\\campcommercialserver_signalr_agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\hotagency\\campcommercialserver_signalr_agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_specificrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_specificrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_sendpinrecoveryobjectforrecoveraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_sendpinrecoveryobjectforrecoveraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_rsaserverside_decrypted_byte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_rsaserverside_decrypted_byte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_rsaserverside_aesencrypted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_rsaserverside_aesencrypted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_read_pin_from_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_read_pin_from_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_landingpage_model_encrypteddata_decryptedfavoritebytearray_and_guid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_landingpage_model_encrypteddata_decryptedfavoritebytearray_and_guid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_landingpage_model_encrypteddata_decryptedfavoritebytearray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_landingpage_model_encrypteddata_decryptedfavoritebytearray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_customerinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_customerinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_campdating_forcecampsignalconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_campdating_forcecampsignalconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_campdating_fetchingcdtfeeds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_campdating_fetchingcdtfeeds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_campdating_chatpartycollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_campdating_chatpartycollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_campdating_chatmessagespeakerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_campdating_chatmessagespeakerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\hotagency\\campcommercialserver_stripe_agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\hotagency\\campcommercialserver_stripe_agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\hotagency\\campcommercialserver_emailagency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\hotagency\\campcommercialserver_emailagency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\hotagency\\chromiumextensionendpointagency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\hotagency\\chromiumextensionendpointagency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\hotagency\\campcommercialserver_crypto_agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\hotagency\\campcommercialserver_crypto_agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\hotagency\\campcommercialserver_cryptoservice_agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\hotagency\\campcommercialserver_cryptoservice_agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\hotagency\\campcommercialserver_azure_blob_campbasement_campmember_agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\hotagency\\campcommercialserver_azure_blob_campbasement_campmember_agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\hotagency\\campcommercialserver_accesskey_agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\hotagency\\campcommercialserver_accesskey_agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\hotagency\\campcommercialserver_account_manager_agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\hotagency\\campcommercialserver_account_manager_agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\machines\\campcommercialserver_bucketinmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\machines\\campcommercialserver_bucketinmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\machines\\bytearrayandconversionmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\machines\\bytearrayandconversionmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\configuration_campstore_clientrequestresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\configuration_campstore_clientrequestresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\main_campstore_datamodel_fromclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\main_campstore_datamodel_fromclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\main_cpme_configurations_fromclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\main_cpme_configurations_fromclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\main_campstore_request_fromclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\main_campstore_request_fromclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\main_campstore_datamodel_fromserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\main_campstore_datamodel_fromserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_campstore_requestcheckoutsession_encrypted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_campstore_requestcheckoutsession_encrypted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\main_camppasswordmanagerenterprise_request_fromclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\main_camppasswordmanagerenterprise_request_fromclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\subpages\\campmember_login_actual_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\subpages\\campmember_login_actual_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\subpages\\campmember_password_reset_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\subpages\\campmember_password_reset_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\subpages\\campmember_purchase_subscription.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\subpages\\campmember_purchase_subscription.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\subpages\\campmember_purchase_subscription.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\subpages\\campmember_purchase_subscription.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\extensionotpdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\extensionotpdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\trialenddialog\\freetrialendeddialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\trialenddialog\\freetrialendeddialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\storedialog\\paymentmonitoring.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\storedialog\\paymentmonitoring.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\restartisrequired\\restartisrequireddialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\restartisrequired\\restartisrequireddialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\subpages\\campmember_registration_user_info_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\subpages\\campmember_registration_user_info_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\subpages\\campmember_registration_user_info_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\subpages\\campmember_registration_user_info_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\subpages\\campmember_registeration_email_verification_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\subpages\\campmember_registeration_email_verification_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\subpages\\campmember_registeration_email_verification_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\subpages\\campmember_registeration_email_verification_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\subpages\\campmember_password_reset_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\subpages\\campmember_password_reset_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\subpages\\campmember_login_account_selection_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\subpages\\campmember_login_account_selection_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\subpages\\campmember_login_actual_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\subpages\\campmember_login_actual_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\subpages\\campmember_login_account_selection_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\subpages\\campmember_login_account_selection_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_cpme_landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_cpme_landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_campmember_registeration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_campmember_registeration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\hotagency\\redhat_keycloak_publicclient_agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\hotagency\\redhat_keycloak_publicclient_agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\storedialog\\quantityconfirmationdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\storedialog\\quantityconfirmationdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\storedialog\\quantityconfirmationdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\storedialog\\quantityconfirmationdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\storedialog\\namedkeypermanentlycannotbechangewarningdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\storedialog\\namedkeypermanentlycannotbechangewarningdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\storedialog\\namedkeypermanentlycannotbechangewarningdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\storedialog\\namedkeypermanentlycannotbechangewarningdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\storedialog\\keynamedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\storedialog\\keynamedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\storedialog\\keynamedialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\storedialog\\keynamedialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\storedialog\\paymentmonitoring.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\storedialog\\paymentmonitoring.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\subpages\\generate_password_configuration_dialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\subpages\\generate_password_configuration_dialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\subpages\\generate_password_configuration_dialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\subpages\\generate_password_configuration_dialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\personalkeygatewaydialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\personalkeygatewaydialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\personalkeygatewaydialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\personalkeygatewaydialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\machines\\stripesessionmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\machines\\stripesessionmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\deletionconfirmation\\deletionconfirmationdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\deletionconfirmation\\deletionconfirmationdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\deletionconfirmation\\deletionconfirmationdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\deletionconfirmation\\deletionconfirmationdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\trialenddialog\\freetrialendeddialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\trialenddialog\\freetrialendeddialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\personalkeymismatcheddialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\personalkeymismatcheddialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\personalkeymismatcheddialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\personalkeymismatcheddialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\machines\\logoprovidermachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\machines\\logoprovidermachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\machines\\datetimeconversionmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\machines\\datetimeconversionmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\machines\\jwttokenreaderasstringmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\machines\\jwttokenreaderasstringmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\machines\\accountrevealermanupulationmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\machines\\accountrevealermanupulationmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\feedsmanipulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\feedsmanipulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\hotagency\\textsimilarlitymatchingagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\hotagency\\textsimilarlitymatchingagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_chrominumextensionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_chrominumextensionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\keynamecheckerdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\keynamecheckerdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\logoutdialog\\logoutdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\logoutdialog\\logoutdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\logoutdialog\\logoutdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\logoutdialog\\logoutdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\useraccountdialog\\lifetimeaccountinformationdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\useraccountdialog\\lifetimeaccountinformationdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\useraccountdialog\\lifetimeaccountinformationdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\useraccountdialog\\lifetimeaccountinformationdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\useraccountdialog\\useraccountinformationdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\useraccountdialog\\useraccountinformationdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\useraccountdialog\\useraccountinformationdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\useraccountdialog\\useraccountinformationdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\extensionotpdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\extensionotpdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\pinmismatcheddialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\pinmismatcheddialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\pinmismatcheddialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\pinmismatcheddialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\restartisrequired\\keyisexpiredandrequiredrestart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\restartisrequired\\keyisexpiredandrequiredrestart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\restartisrequired\\keyisexpiredandrequiredrestart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\restartisrequired\\keyisexpiredandrequiredrestart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\encryptandcompressedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\encryptandcompressedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\pingatewaydialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\pingatewaydialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\pingatewaydialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\accessdialog\\pingatewaydialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\services\\hotagency\\recoveryagency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\services\\hotagency\\recoveryagency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\accountlockeddialog\\accountpinlockeddialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\accountlockeddialog\\accountpinlockeddialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\accountlockeddialog\\accountpinlockeddialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\accountlockeddialog\\accountpinlockeddialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\applicationlimit\\scalingistoohighdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\applicationlimit\\scalingistoohighdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\pages\\dialogs\\applicationlimit\\scalingistoohighdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\pages\\dialogs\\applicationlimit\\scalingistoohighdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|c:\\campmember\\camp_commercial_webapp\\campmembersharedcssourcecode\\croftteamswinuitemplate\\models\\model_cpme_button_specialkeybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CD85B8-5A5C-4F3D-B528-99B2C2D8243E}|CroftTeamsWinUITemplate\\CroftTeamsWinUITemplate.csproj|solutionrelative:croftteamswinuitemplate\\models\\model_cpme_button_specialkeybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Model_CampMember_ForgetPassword.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CampMember_ForgetPassword.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_CampMember_ForgetPassword.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CampMember_ForgetPassword.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_CampMember_ForgetPassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T11:28:50.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CampCommercialServer_SignalR_agency.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_SignalR_agency.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_SignalR_agency.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_SignalR_agency.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_SignalR_agency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T18:59:26.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Model_SendPINRecoveryObjectForRecoverAccount.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_SendPINRecoveryObjectForRecoverAccount.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_SendPINRecoveryObjectForRecoverAccount.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_SendPINRecoveryObjectForRecoverAccount.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_SendPINRecoveryObjectForRecoverAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T20:41:45.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Model_RSAServerSide_Decrypted_byte.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_RSAServerSide_Decrypted_byte.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_RSAServerSide_Decrypted_byte.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_RSAServerSide_Decrypted_byte.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_RSAServerSide_Decrypted_byte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T20:41:37.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Model_SpecificRecord.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_SpecificRecord.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_SpecificRecord.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_SpecificRecord.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_SpecificRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:50:55.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Model_RSAServerSide_AESEncrypted.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_RSAServerSide_AESEncrypted.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_RSAServerSide_AESEncrypted.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_RSAServerSide_AESEncrypted.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_RSAServerSide_AESEncrypted.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T20:41:15.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Model_Read_Pin_From_Server.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_Read_Pin_From_Server.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_Read_Pin_From_Server.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_Read_Pin_From_Server.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_Read_Pin_From_Server.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T20:37:05.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Model_LandingPage_Model_EncryptedData_DecryptedFavoriteByteArray.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_LandingPage_Model_EncryptedData_DecryptedFavoriteByteArray.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_LandingPage_Model_EncryptedData_DecryptedFavoriteByteArray.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_LandingPage_Model_EncryptedData_DecryptedFavoriteByteArray.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_LandingPage_Model_EncryptedData_DecryptedFavoriteByteArray.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T20:32:53.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Model_LandingPage_Model_EncryptedData_DecryptedFavoriteByteArray_And_GUID.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_LandingPage_Model_EncryptedData_DecryptedFavoriteByteArray_And_GUID.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_LandingPage_Model_EncryptedData_DecryptedFavoriteByteArray_And_GUID.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_LandingPage_Model_EncryptedData_DecryptedFavoriteByteArray_And_GUID.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_LandingPage_Model_EncryptedData_DecryptedFavoriteByteArray_And_GUID.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T20:32:30.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Model_CustomerInformation.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CustomerInformation.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_CustomerInformation.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CustomerInformation.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_CustomerInformation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T20:28:21.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Model_CampDating_ForceCampSignalConnection.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CampDating_ForceCampSignalConnection.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_CampDating_ForceCampSignalConnection.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CampDating_ForceCampSignalConnection.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_CampDating_ForceCampSignalConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T20:18:04.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Model_CampDating_FetchingCDTFeeds.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CampDating_FetchingCDTFeeds.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_CampDating_FetchingCDTFeeds.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CampDating_FetchingCDTFeeds.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_CampDating_FetchingCDTFeeds.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T20:16:57.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Model_CampDating_ChatPartyCollection.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CampDating_ChatPartyCollection.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_CampDating_ChatPartyCollection.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CampDating_ChatPartyCollection.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_CampDating_ChatPartyCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T20:16:00.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Model_CampDating_ChatMessageSpeakerProfile.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CampDating_ChatMessageSpeakerProfile.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_CampDating_ChatMessageSpeakerProfile.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CampDating_ChatMessageSpeakerProfile.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_CampDating_ChatMessageSpeakerProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T20:13:27.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CampCommercialServer_EmailAgency.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_EmailAgency.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_EmailAgency.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_EmailAgency.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_EmailAgency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T19:19:24.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CampCommercialServer_Crypto_agency.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_Crypto_agency.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_Crypto_agency.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_Crypto_agency.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_Crypto_agency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T18:43:17.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CampCommercialServer_CryptoService_agency.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_CryptoService_agency.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_CryptoService_agency.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_CryptoService_agency.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_CryptoService_agency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T18:42:26.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CampCommercialServer_Stripe_agency.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_Stripe_agency.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_Stripe_agency.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_Stripe_agency.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_Stripe_agency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T19:08:15.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChromiumExtensionEndpointAgency.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\ChromiumExtensionEndpointAgency.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\HotAgency\\ChromiumExtensionEndpointAgency.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\ChromiumExtensionEndpointAgency.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\HotAgency\\ChromiumExtensionEndpointAgency.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAACQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T18:31:06.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CampCommercialServer_Azure_Blob_CampBasement_CampMember_agency.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_Azure_Blob_CampBasement_CampMember_agency.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_Azure_Blob_CampBasement_CampMember_agency.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_Azure_Blob_CampBasement_CampMember_agency.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_Azure_Blob_CampBasement_CampMember_agency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T19:04:31.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CampCommercialServer_AccessKey_agency.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_AccessKey_agency.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_AccessKey_agency.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_AccessKey_agency.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_AccessKey_agency.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAJ0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T18:37:53.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CampCommercialServer_Account_Manager_agency.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_Account_Manager_agency.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_Account_Manager_agency.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_Account_Manager_agency.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\HotAgency\\CampCommercialServer_Account_Manager_agency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T19:14:23.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CampCommercialServer_BucketInMachine.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\Machines\\CampCommercialServer_BucketInMachine.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\Machines\\CampCommercialServer_BucketInMachine.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\Machines\\CampCommercialServer_BucketInMachine.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\Machines\\CampCommercialServer_BucketInMachine.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAADwv08AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T18:56:35.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ByteArrayAndConversionMachine.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\Machines\\ByteArrayAndConversionMachine.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\Machines\\ByteArrayAndConversionMachine.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\Machines\\ByteArrayAndConversionMachine.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\Machines\\ByteArrayAndConversionMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T18:55:36.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Main_CampStore_DataModel_FromClient.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Main_CampStore_DataModel_FromClient.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Main_CampStore_DataModel_FromClient.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Main_CampStore_DataModel_FromClient.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Main_CampStore_DataModel_FromClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T11:57:43.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Main_CPME_Configurations_FromClient.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Main_CPME_Configurations_FromClient.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Main_CPME_Configurations_FromClient.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Main_CPME_Configurations_FromClient.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Main_CPME_Configurations_FromClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T11:53:29.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Main_CampStore_DataModel_FromServer.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Main_CampStore_DataModel_FromServer.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Main_CampStore_DataModel_FromServer.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Main_CampStore_DataModel_FromServer.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Main_CampStore_DataModel_FromServer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T11:48:11.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Model_CampStore_RequestCheckoutSession_Encrypted.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CampStore_RequestCheckoutSession_Encrypted.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_CampStore_RequestCheckoutSession_Encrypted.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CampStore_RequestCheckoutSession_Encrypted.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_CampStore_RequestCheckoutSession_Encrypted.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T11:48:08.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Configuration_CampStore_ClientRequestResults.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Configuration_CampStore_ClientRequestResults.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Configuration_CampStore_ClientRequestResults.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Configuration_CampStore_ClientRequestResults.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Configuration_CampStore_ClientRequestResults.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T10:41:29.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Main_CampStore_Request_FromClient.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Main_CampStore_Request_FromClient.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Main_CampStore_Request_FromClient.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Main_CampStore_Request_FromClient.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Main_CampStore_Request_FromClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T07:04:43.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Main_CampPasswordManagerEnterprise_Request_FromClient.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Main_CampPasswordManagerEnterprise_Request_FromClient.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Main_CampPasswordManagerEnterprise_Request_FromClient.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Main_CampPasswordManagerEnterprise_Request_FromClient.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Main_CampPasswordManagerEnterprise_Request_FromClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T06:54:42.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CampMember_Purchase_Subscription.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Purchase_Subscription.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Purchase_Subscription.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Purchase_Subscription.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Purchase_Subscription.xaml.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwGwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T07:18:13.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CampMember_Purchase_Subscription.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Purchase_Subscription.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Purchase_Subscription.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Purchase_Subscription.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Purchase_Subscription.xaml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-14T07:17:50.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FreeTrialEndedDialog.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\TrialEndDialog\\FreeTrialEndedDialog.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\TrialEndDialog\\FreeTrialEndedDialog.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\TrialEndDialog\\FreeTrialEndedDialog.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\TrialEndDialog\\FreeTrialEndedDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:58:28.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ExtensionOTPDialog.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\ExtensionOTPDialog.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\ExtensionOTPDialog.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\ExtensionOTPDialog.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\ExtensionOTPDialog.xaml.cs",
+              "ViewState": "AgIAAAkBAAAAAAAAAAAuwB0BAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T18:31:59.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CampMember_Password_Reset_page.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Password_Reset_page.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Password_Reset_page.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Password_Reset_page.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Password_Reset_page.xaml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-14T04:25:32.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CampMember_Login_Actual_page.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Login_Actual_page.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Login_Actual_page.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Login_Actual_page.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Login_Actual_page.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-14T04:17:56.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PaymentMonitoring.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\PaymentMonitoring.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\PaymentMonitoring.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\PaymentMonitoring.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\PaymentMonitoring.xaml.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAuwIoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T20:23:32.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RestartIsRequiredDialog.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\RestartIsRequired\\RestartIsRequiredDialog.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\RestartIsRequired\\RestartIsRequiredDialog.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\RestartIsRequired\\RestartIsRequiredDialog.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\RestartIsRequired\\RestartIsRequiredDialog.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwC4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T18:55:11.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CampMember_Registration_User_Info_page.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Registration_User_Info_page.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Registration_User_Info_page.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Registration_User_Info_page.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Registration_User_Info_page.xaml.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAqwM8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T04:28:44.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CampMember_Registration_User_Info_page.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Registration_User_Info_page.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Registration_User_Info_page.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Registration_User_Info_page.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Registration_User_Info_page.xaml",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAswIIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-14T04:28:28.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CampMember_Registeration_Email_Verification_page.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Registeration_Email_Verification_page.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Registeration_Email_Verification_page.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Registeration_Email_Verification_page.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Registeration_Email_Verification_page.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T04:27:44.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CampMember_Registeration_Email_Verification_page.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Registeration_Email_Verification_page.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Registeration_Email_Verification_page.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Registeration_Email_Verification_page.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Registeration_Email_Verification_page.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-14T04:27:25.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CampMember_Password_Reset_page.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Password_Reset_page.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Password_Reset_page.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Password_Reset_page.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Password_Reset_page.xaml.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAqwGsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T04:25:57.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CampMember_Login_Account_Selection_page.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Login_Account_Selection_page.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Login_Account_Selection_page.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Login_Account_Selection_page.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Login_Account_Selection_page.xaml.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAqwHQAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T04:23:42.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CampMember_Login_Account_Selection_page.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Login_Account_Selection_page.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Login_Account_Selection_page.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Login_Account_Selection_page.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Login_Account_Selection_page.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-14T04:23:20.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CampMember_Login_Actual_page.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Login_Actual_page.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Login_Actual_page.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Login_Actual_page.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\SubPages\\CampMember_Login_Actual_page.xaml.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAALAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T04:18:19.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Model_CampMember_Registeration.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CampMember_Registeration.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_CampMember_Registeration.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CampMember_Registeration.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_CampMember_Registeration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T12:20:57.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "NamedKeyPermanentlyCannotBeChangeWarningDialog.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\NamedKeyPermanentlyCannotBeChangeWarningDialog.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\NamedKeyPermanentlyCannotBeChangeWarningDialog.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\NamedKeyPermanentlyCannotBeChangeWarningDialog.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\NamedKeyPermanentlyCannotBeChangeWarningDialog.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwBgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T16:38:46.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "NamedKeyPermanentlyCannotBeChangeWarningDialog.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\NamedKeyPermanentlyCannotBeChangeWarningDialog.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\NamedKeyPermanentlyCannotBeChangeWarningDialog.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\NamedKeyPermanentlyCannotBeChangeWarningDialog.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\NamedKeyPermanentlyCannotBeChangeWarningDialog.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-12T16:38:36.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "KeyNameDialog.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\KeyNameDialog.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\KeyNameDialog.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\KeyNameDialog.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\KeyNameDialog.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwBkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T16:33:56.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "KeyNameDialog.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\KeyNameDialog.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\KeyNameDialog.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\KeyNameDialog.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\KeyNameDialog.xaml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwCMAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-12T16:33:42.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Model_CPME_LandingPage.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CPME_LandingPage.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_CPME_LandingPage.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CPME_LandingPage.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_CPME_LandingPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:35:47.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "QuantityConfirmationDialog.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\QuantityConfirmationDialog.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\QuantityConfirmationDialog.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\QuantityConfirmationDialog.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\QuantityConfirmationDialog.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwCAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T16:40:24.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "RedHat_Keycloak_PublicClient_agency.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\RedHat_Keycloak_PublicClient_agency.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\HotAgency\\RedHat_Keycloak_PublicClient_agency.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\RedHat_Keycloak_PublicClient_agency.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\HotAgency\\RedHat_Keycloak_PublicClient_agency.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAABBwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T18:35:12.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "QuantityConfirmationDialog.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\QuantityConfirmationDialog.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\QuantityConfirmationDialog.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\QuantityConfirmationDialog.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\QuantityConfirmationDialog.xaml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-12T16:40:11.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "PaymentMonitoring.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\PaymentMonitoring.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\PaymentMonitoring.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\PaymentMonitoring.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\StoreDialog\\PaymentMonitoring.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T20:23:17.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Generate_Password_Configuration_Dialog.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\Generate_Password_Configuration_Dialog.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\SubPages\\Generate_Password_Configuration_Dialog.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\Generate_Password_Configuration_Dialog.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\SubPages\\Generate_Password_Configuration_Dialog.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAABBwBgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T20:13:30.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Generate_Password_Configuration_Dialog.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\Generate_Password_Configuration_Dialog.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\SubPages\\Generate_Password_Configuration_Dialog.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\SubPages\\Generate_Password_Configuration_Dialog.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\SubPages\\Generate_Password_Configuration_Dialog.xaml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwCsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T20:13:01.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "PersonalKeyGatewayDialog.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PersonalKeyGatewayDialog.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PersonalKeyGatewayDialog.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PersonalKeyGatewayDialog.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PersonalKeyGatewayDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T20:07:58.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "PersonalKeyGatewayDialog.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PersonalKeyGatewayDialog.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PersonalKeyGatewayDialog.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PersonalKeyGatewayDialog.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PersonalKeyGatewayDialog.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T20:07:21.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\App.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\App.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\App.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\App.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAABBwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:32:02.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "StripeSessionMachine.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\Machines\\StripeSessionMachine.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\Machines\\StripeSessionMachine.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\Machines\\StripeSessionMachine.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\Machines\\StripeSessionMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:59:43.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "FreeTrialEndedDialog.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\TrialEndDialog\\FreeTrialEndedDialog.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\TrialEndDialog\\FreeTrialEndedDialog.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\TrialEndDialog\\FreeTrialEndedDialog.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\TrialEndDialog\\FreeTrialEndedDialog.xaml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T19:58:20.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "PersonalKeyMismatchedDialog.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PersonalKeyMismatchedDialog.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PersonalKeyMismatchedDialog.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PersonalKeyMismatchedDialog.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PersonalKeyMismatchedDialog.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwBgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:55:53.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "PersonalKeyMismatchedDialog.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PersonalKeyMismatchedDialog.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PersonalKeyMismatchedDialog.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PersonalKeyMismatchedDialog.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PersonalKeyMismatchedDialog.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T19:55:35.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "DeletionConfirmationDialog.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\DeletionConfirmation\\DeletionConfirmationDialog.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\DeletionConfirmation\\DeletionConfirmationDialog.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\DeletionConfirmation\\DeletionConfirmationDialog.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\DeletionConfirmation\\DeletionConfirmationDialog.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T19:10:16.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "DeletionConfirmationDialog.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\DeletionConfirmation\\DeletionConfirmationDialog.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\DeletionConfirmation\\DeletionConfirmationDialog.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\DeletionConfirmation\\DeletionConfirmationDialog.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\DeletionConfirmation\\DeletionConfirmationDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:11:41.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "LogoProviderMachine.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\Machines\\LogoProviderMachine.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\Machines\\LogoProviderMachine.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\Machines\\LogoProviderMachine.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\Machines\\LogoProviderMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:37:25.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "DateTimeConversionMachine.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\Machines\\DateTimeConversionMachine.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\Machines\\DateTimeConversionMachine.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\Machines\\DateTimeConversionMachine.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\Machines\\DateTimeConversionMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:35:12.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "JWTTokenReaderasStringMachine.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\Machines\\JWTTokenReaderasStringMachine.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\Machines\\JWTTokenReaderasStringMachine.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\Machines\\JWTTokenReaderasStringMachine.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\Machines\\JWTTokenReaderasStringMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:30:37.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "AccountRevealerManupulationMachine.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\Machines\\AccountRevealerManupulationMachine.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\Machines\\AccountRevealerManupulationMachine.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\Machines\\AccountRevealerManupulationMachine.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\Machines\\AccountRevealerManupulationMachine.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:29:43.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "FeedsmanipulationService.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\FeedsmanipulationService.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\FeedsmanipulationService.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\FeedsmanipulationService.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\FeedsmanipulationService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAABBwDAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:29:16.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "TextSimilarlityMatchingAgent.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\TextSimilarlityMatchingAgent.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\HotAgency\\TextSimilarlityMatchingAgent.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\TextSimilarlityMatchingAgent.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\HotAgency\\TextSimilarlityMatchingAgent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:16:10.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Model_ChrominumExtensionRequest.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_ChrominumExtensionRequest.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_ChrominumExtensionRequest.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_ChrominumExtensionRequest.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_ChrominumExtensionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:15:04.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "KeynameCheckerDialog.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\KeynameCheckerDialog.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\KeynameCheckerDialog.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\KeynameCheckerDialog.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\KeynameCheckerDialog.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwDAAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T18:58:51.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "LogoutDialog.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\LogoutDialog\\LogoutDialog.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\LogoutDialog\\LogoutDialog.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\LogoutDialog\\LogoutDialog.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\LogoutDialog\\LogoutDialog.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAABBwBcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T18:56:44.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "LogoutDialog.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\LogoutDialog\\LogoutDialog.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\LogoutDialog\\LogoutDialog.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\LogoutDialog\\LogoutDialog.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\LogoutDialog\\LogoutDialog.xaml",
+              "ViewState": "AgIAAAcAAAAAAAAAAABBwBsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T18:56:31.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "LifetimeAccountInformationDialog.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\UserAccountDialog\\LifetimeAccountInformationDialog.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\UserAccountDialog\\LifetimeAccountInformationDialog.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\UserAccountDialog\\LifetimeAccountInformationDialog.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\UserAccountDialog\\LifetimeAccountInformationDialog.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAABBwBgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T18:51:35.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "LifetimeAccountInformationDialog.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\UserAccountDialog\\LifetimeAccountInformationDialog.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\UserAccountDialog\\LifetimeAccountInformationDialog.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\UserAccountDialog\\LifetimeAccountInformationDialog.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\UserAccountDialog\\LifetimeAccountInformationDialog.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwDMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T18:51:20.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "UserAccountInformationDialog.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\UserAccountDialog\\UserAccountInformationDialog.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\UserAccountDialog\\UserAccountInformationDialog.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\UserAccountDialog\\UserAccountInformationDialog.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\UserAccountDialog\\UserAccountInformationDialog.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBZwCEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T18:49:25.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "UserAccountInformationDialog.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\UserAccountDialog\\UserAccountInformationDialog.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\UserAccountDialog\\UserAccountInformationDialog.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\UserAccountDialog\\UserAccountInformationDialog.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\UserAccountDialog\\UserAccountInformationDialog.xaml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwCYAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T18:49:17.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "ExtensionOTPDialog.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\ExtensionOTPDialog.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\ExtensionOTPDialog.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\ExtensionOTPDialog.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\ExtensionOTPDialog.xaml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwD8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T18:31:44.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "PINMismatchedDialog.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PINMismatchedDialog.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PINMismatchedDialog.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PINMismatchedDialog.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PINMismatchedDialog.xaml.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAABBwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T18:29:50.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "PINMismatchedDialog.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PINMismatchedDialog.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PINMismatchedDialog.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PINMismatchedDialog.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PINMismatchedDialog.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T18:29:40.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "KeyIsExpiredAndRequiredRestart.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\RestartIsRequired\\KeyIsExpiredAndRequiredRestart.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\RestartIsRequired\\KeyIsExpiredAndRequiredRestart.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\RestartIsRequired\\KeyIsExpiredAndRequiredRestart.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\RestartIsRequired\\KeyIsExpiredAndRequiredRestart.xaml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAABBwBoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T18:28:13.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "KeyIsExpiredAndRequiredRestart.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\RestartIsRequired\\KeyIsExpiredAndRequiredRestart.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\RestartIsRequired\\KeyIsExpiredAndRequiredRestart.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\RestartIsRequired\\KeyIsExpiredAndRequiredRestart.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\RestartIsRequired\\KeyIsExpiredAndRequiredRestart.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T18:27:37.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "PINGatewayDialog.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PINGatewayDialog.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PINGatewayDialog.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PINGatewayDialog.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PINGatewayDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T18:21:03.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "PINGatewayDialog.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PINGatewayDialog.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PINGatewayDialog.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PINGatewayDialog.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccessDialog\\PINGatewayDialog.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T18:20:52.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "EncryptAndCompressedService.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\EncryptAndCompressedService.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\EncryptAndCompressedService.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\EncryptAndCompressedService.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\EncryptAndCompressedService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAIBZwC4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T18:09:44.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "RecoveryAgency.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\RecoveryAgency.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Services\\HotAgency\\RecoveryAgency.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Services\\HotAgency\\RecoveryAgency.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Services\\HotAgency\\RecoveryAgency.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAIBZwFsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:50:22.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "AccountPINLockedDialog.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccountLockedDialog\\AccountPINLockedDialog.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccountLockedDialog\\AccountPINLockedDialog.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccountLockedDialog\\AccountPINLockedDialog.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccountLockedDialog\\AccountPINLockedDialog.xaml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwC4AAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T17:47:32.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "AccountPINLockedDialog.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccountLockedDialog\\AccountPINLockedDialog.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccountLockedDialog\\AccountPINLockedDialog.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccountLockedDialog\\AccountPINLockedDialog.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\AccountLockedDialog\\AccountPINLockedDialog.xaml.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAABBwJwAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:47:02.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "ScalingIsTooHighDialog.xaml.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\ApplicationLimit\\ScalingIsTooHighDialog.xaml.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\ApplicationLimit\\ScalingIsTooHighDialog.xaml.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\ApplicationLimit\\ScalingIsTooHighDialog.xaml.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\ApplicationLimit\\ScalingIsTooHighDialog.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:41:01.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "ScalingIsTooHighDialog.xaml",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\ApplicationLimit\\ScalingIsTooHighDialog.xaml",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\ApplicationLimit\\ScalingIsTooHighDialog.xaml",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Pages\\Dialogs\\ApplicationLimit\\ScalingIsTooHighDialog.xaml",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Pages\\Dialogs\\ApplicationLimit\\ScalingIsTooHighDialog.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-11T17:40:55.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "Model_CPME_Button_SpecialKeyButton.cs",
+              "DocumentMoniker": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CPME_Button_SpecialKeyButton.cs",
+              "RelativeDocumentMoniker": "CroftTeamsWinUITemplate\\Models\\Model_CPME_Button_SpecialKeyButton.cs",
+              "ToolTip": "C:\\CampMember\\Camp_Commercial_Webapp\\CampMemberSharedCSSourceCode\\CroftTeamsWinUITemplate\\Models\\Model_CPME_Button_SpecialKeyButton.cs",
+              "RelativeToolTip": "CroftTeamsWinUITemplate\\Models\\Model_CPME_Button_SpecialKeyButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:36:13.466Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>82631344-7188-45c1-b86d-f7dfa5fb3b47</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CampMemberSourceCode\Assets\**" />
+    <Compile Remove="CampMemberSourceCode\obj\**" />
+    <Compile Remove="CampMemberSourceCode\Pages\**" />
+    <Compile Remove="CampMemberSourceCode\Properties\**" />
+    <Compile Remove="Services\NewFolder\**" />
+    <Content Remove="CampMemberSourceCode\Assets\**" />
+    <Content Remove="CampMemberSourceCode\obj\**" />
+    <Content Remove="CampMemberSourceCode\Pages\**" />
+    <Content Remove="CampMemberSourceCode\Properties\**" />
+    <Content Remove="Services\NewFolder\**" />
+    <EmbeddedResource Remove="CampMemberSourceCode\Assets\**" />
+    <EmbeddedResource Remove="CampMemberSourceCode\obj\**" />
+    <EmbeddedResource Remove="CampMemberSourceCode\Pages\**" />
+    <EmbeddedResource Remove="CampMemberSourceCode\Properties\**" />
+    <EmbeddedResource Remove="Services\NewFolder\**" />
+    <None Remove="CampMemberSourceCode\Assets\**" />
+    <None Remove="CampMemberSourceCode\obj\**" />
+    <None Remove="CampMemberSourceCode\Pages\**" />
+    <None Remove="CampMemberSourceCode\Properties\**" />
+    <None Remove="Services\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="CampMemberSourceCode\App.xaml.cs" />
+    <Compile Remove="CampMemberSourceCode\MainWindow.xaml.cs" />
+    <Compile Remove="CampMemberSourceCode\Models\Model_CampPasswordManagerEnterprise_Button_SpecialKeyButton.cs" />
+    <Compile Remove="CampMemberSourceCode\Models\Model_CampPasswordManagerEnterprise_LandingPage.cs" />
+    <Compile Remove="CampMemberSourceCode\Services\Client_EncryptAndCompressedService.cs" />
+    <Compile Remove="CampMemberSourceCode\Services\Client_FeedsmanipulationService.cs" />
+    <Compile Remove="CampMemberSourceCode\Services\FeedsmanipulationService_ClientSide.cs" />
+    <Compile Remove="CampMemberSourceCode\Services\HotAgency\ChromiumExtensionEndpointAgency.cs" />
+    <Compile Remove="CampMemberSourceCode\Services\HotAgency\ClientRSAEncryptionAgency.cs" />
+    <Compile Remove="CampMemberSourceCode\Services\HotAgency\Client_RecoveryAgency.cs" />
+    <Compile Remove="CampMemberSourceCode\Services\HotAgency\Client_RedHatKeycloak_PublicClient_agency.cs" />
+    <Compile Remove="CampMemberSourceCode\Services\HotAgency\Client_RedHat_Keycloak_PublicClient_agency.cs" />
+    <Compile Remove="CampMemberSourceCode\Services\HotAgency\Client_RSAEncryptionAgency.cs" />
+    <Compile Remove="CampMemberSourceCode\Services\Machines\AccountRevealerManupulationMachine.cs" />
+    <Compile Remove="CampMemberSourceCode\Services\Machines\ClientSignalIRMachine.cs" />
+    <Compile Remove="CampMemberSourceCode\Services\Machines\Client_AccountRevealerManupulationMachine.cs" />
+    <Compile Remove="CampMemberSourceCode\Services\Machines\Client_SignalIRMachine.cs" />
+    <Compile Remove="CampMemberSourceCode\Services\Machines\Client_StripeSessionMachine.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="CampMemberSourceCode\app.manifest" />
+    <None Remove="CampMemberSourceCode\App.xaml" />
+    <None Remove="CampMemberSourceCode\MainWindow.xaml" />
+    <None Remove="CampMemberSourceCode\Package.appxmanifest" />
+    <None Remove="Certificate\cert.pfx" />
+    <None Remove="Certificate\cloudflare_origin.pfx" />
+    <None Remove="Certificate\wildcardcpm.pfx" />
+    <None Remove="Credentials\config" />
+    <None Remove="Credentials\croftteams%40camppasswordmanager.com-2025-08-06T21_03_11.835Z.pem" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Certificate\wildcardcpm.pfx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Credentials\config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Credentials\croftteams@camppasswordmanager.com-2025-08-06T21_03_11.835Z.pem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="test.js">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Data.Tables" Version="12.11.0" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.24.1" />
+    <PackageReference Include="Google.Cloud.Storage.V1" Version="4.13.0" />
+    <PackageReference Include="IronPython" Version="3.4.1" />
+    <PackageReference Include="IronPython.StdLib" Version="3.4.1" />
+    <PackageReference Include="Jint" Version="4.0.2" />
+    <PackageReference Include="MailKit" Version="4.13.0" />
+    <PackageReference Include="Microsoft.Identity.Web" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Identity.Web.UI" Version="3.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+    <PackageReference Include="MimeKit" Version="4.13.0" />
+    <PackageReference Include="OCI.DotNetSDK.Common" Version="116.1.0" />
+    <PackageReference Include="OCI.DotNetSDK.Objectstorage" Version="116.1.0" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.9.0" />
+    <PackageReference Include="PasswordGenerator" Version="2.1.0" />
+    <PackageReference Include="protobuf-net" Version="3.2.30" />
+    <PackageReference Include="Stripe.net" Version="45.14.0" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="NewFolder\" />
+    <Folder Include="Services\Machines\" />
+  </ItemGroup>
+
+</Project>

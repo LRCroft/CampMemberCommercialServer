@@ -1,0 +1,52 @@
+.gradient-text {
+    background: linear-gradient(90deg, orange, green, blue, yellow, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% 500%;
+    animation: gradient-animation 5s linear infinite;
+    font-weight: bold; /* Make the text bold */
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+
+
+/* General styles */
+.button-container {
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+    margin-bottom: 20px; /* Add some bottom margin to separate the items on mobile */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .button-container {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+    }
+
+        .button-container img {
+            width: 100px; /* Adjust the image width to fit smaller screens */
+        }
+
+    .text-center {
+        text-align: left;
+    }
+}

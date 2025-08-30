@@ -1,0 +1,1142 @@
+﻿@page
+@model campmember_commercial_webapp_linuximg.Pages.PricingModel
+@{
+    ViewData["Title"] = "Become a Camp Member";
+}
+
+
+@{
+    var membershipLevel = HttpContext.Session.GetString("SubscriptionPeriod");
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+
+
+
+
+        /* General styling for the container holding the buttons */
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+
+
+
+
+        .button-container {
+            display: flex; /* Align items using flexbox */
+            justify-content: center; /* Center buttons horizontally */
+            align-items: center; /* Center buttons vertically */
+            margin: auto; /* Center the button container itself */
+            gap: 20px; /* Space between buttons */
+            padding: 10px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: fit-content; /* Width adapts to content */
+            height: auto; /* Allow height to adjust based on content */
+        }
+
+
+
+
+
+        .carousel-item img {
+            border-radius: 15px; /* Adjust the value for more or less curvature */
+            width: 90%; /* Ensure the image takes the full width */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+
+
+
+/* Specific styling for the second container */
+.second-container0 {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+        .second-container1 {
+            width: 100%;
+            margin-top: 20px;
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+        /* Specific styling for the second container */
+        .third-container0 {
+            width: 100%;
+            margin-top: 20px;
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        /* Specific styling for the second container */
+        .third-container1 {
+            width: 100%;
+            margin-top: 20px;
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+.coinpayment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Styling for the Cryptocurrency Payment text */
+.crypto-payment-text {
+    padding-left: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Container for form and description, to align them side by side */
+.form-description-container {
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Ensure that the form and the description take up space side by side */
+form {
+    margin-right: 20px;
+}
+
+/* Styling for the payment description */
+.payment-description0 {
+    padding-left: 50px;
+    text-align: left;
+    white-space: normal; /* Allow text to wrap to a new line */
+    word-wrap: break-word; /* Break long words to wrap them */
+    overflow-wrap: break-word; /* Ensure content wraps within the container */
+}
+
+        /* Styling for the payment description */
+        .payment-description1 {
+            text-align: left;
+            padding-left: 20px;
+            white-space: normal; /* Allow text to wrap to a new line */
+            word-wrap: break-word; /* Break long words to wrap them */
+            overflow-wrap: break-word; /* Ensure content wraps within the container */
+        }
+
+/* Emphasize the "Pay 2,999 USD" text without changing the size */
+.highlight-payment {
+    font-weight: bold;
+}
+
+/* Bold styling for the page title */
+.page-title {
+    font-weight: bold;
+    font-size: 2em; /* Adjust font size if necessary */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* Custom styles for carousel control icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent; /* Remove background for cleaner look */
+    border: none; /* Remove border */
+    filter: invert(1); /* Ensure the icons are white */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50%; /* Vertically center the controls */
+    transform: translateY(-50%); /* Adjust for centering */
+    width: auto; /* Remove fixed width */
+    height: auto; /* Remove fixed height */
+    background: none; /* Remove button background */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: transparent; /* Keep hover background transparent */
+}
+
+
+
+
+    </style>
+
+    <style class="NewBoxName">
+
+
+        .DesktopCards-container
+        {
+            flex-direction: column;
+        }
+
+
+        .card0Normal {
+            color: black;
+            padding: 20px; /* Space inside the card */
+            border-radius: 10px; /* Rounded corners */
+            width: 1100px; /* Fixed width */
+            height: 600px; /* Fixed height */
+            display: flex; /* Use flexbox for layout */
+            flex-direction: row; /* Arrange children in a row */
+            align-items: center; /* Center items vertically */
+            text-align: center; /* Center text */
+            background-image: url('https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/CampBGJustACamp.png'); /* Background image */
+            background-size: cover; /* Cover the entire area */
+            background-position: top center; /* Start from the top and center horizontally */
+            background-repeat: no-repeat; /* No repeating of the image */
+        }
+
+
+        .card0Grey {
+            color: black;
+            padding: 20px; /* Space inside the card */
+            border-radius: 10px; /* Rounded corners */
+            width: 1100px; /* Fixed width */
+            height: 600px; /* Fixed height */
+            display: flex; /* Use flexbox for layout */
+            flex-direction: row; /* Arrange children in a row */
+            align-items: center; /* Center items vertically */
+            text-align: center; /* Center text */
+            position: relative; /* Required for absolute positioning of the pseudo-element */
+            overflow: hidden; /* Ensure children don't overflow the card */
+        }
+
+            .card0Grey::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-image: url('https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/CampBGJustACamp.png'); /* Background image */
+                background-size: cover; /* Cover the entire area */
+                background-position: top center; /* Start from the top and center horizontally */
+                background-repeat: no-repeat; /* No repeating of the image */
+                filter: grayscale(70%); /* Apply grayscale */
+                z-index: 1; /* Ensure this is below the content */
+            }
+
+            .card0Grey > * {
+                position: relative; /* Required to ensure children are above the pseudo-element */
+                z-index: 2; /* Ensure content appears above the background */
+            }
+
+
+        .card1Normal {
+            color: black;
+            padding: 20px; /* Space inside the card */
+            border-radius: 10px; /* Rounded corners */
+            width: 1100px; /* Fixed width */
+            height: 600px; /* Fixed height */
+            display: flex; /* Use flexbox for layout */
+            flex-direction: row; /* Arrange children in a row */
+            align-items: center; /* Center items vertically */
+            text-align: center; /* Center text */
+            background-image: url('https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/CampBG3YRCamp.png'); /* Background image */
+            background-size: cover; /* Cover the entire area */
+            background-position: top center; /* Start from the top and center horizontally */
+            background-repeat: no-repeat; /* No repeating of the image */
+        }
+
+
+        .card1Grey {
+            color: black;
+            padding: 20px; /* Space inside the card */
+            border-radius: 10px; /* Rounded corners */
+            width: 1100px; /* Fixed width */
+            height: 600px; /* Fixed height */
+            display: flex; /* Use flexbox for layout */
+            flex-direction: row; /* Arrange children in a row */
+            align-items: center; /* Center items vertically */
+            text-align: center; /* Center text */
+            position: relative; /* Required for absolute positioning of the pseudo-element */
+            overflow: hidden; /* Ensure children don't overflow the card */
+        }
+
+            .card1Grey::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-image: url('https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/CampBG3YRCamp.png'); /* Background image */
+                background-size: cover; /* Cover the entire area */
+                background-position: top center; /* Start from the top and center horizontally */
+                background-repeat: no-repeat; /* No repeating of the image */
+                filter: grayscale(70%); /* Apply grayscale */
+                z-index: 1; /* Ensure this is below the content */
+            }
+
+            .card1Grey > * {
+                position: relative; /* Required to ensure children are above the pseudo-element */
+                z-index: 2; /* Ensure content appears above the background */
+            }
+
+
+        .card2Normal {
+            color: black;
+            padding: 20px; /* Space inside the card */
+            border-radius: 10px; /* Rounded corners */
+            width: 1100px; /* Fixed width */
+            height: 600px; /* Fixed height */
+            display: flex; /* Use flexbox for layout */
+            flex-direction: row; /* Arrange children in a row */
+            align-items: center; /* Center items vertically */
+            text-align: center; /* Center text */
+            background-image: url('https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/CampBgLifeTime.png'); /* Background image */
+            background-size: cover; /* Cover the entire area */
+            background-position: top center; /* Start from the top and center horizontally */
+            background-repeat: no-repeat; /* No repeating of the image */
+        }
+
+        .card2Grey {
+            color: black;
+            padding: 20px; /* Space inside the card */
+            border-radius: 10px; /* Rounded corners */
+            width: 1100px; /* Fixed width */
+            height: 600px; /* Fixed height */
+            display: flex; /* Use flexbox for layout */
+            flex-direction: row; /* Arrange children in a row */
+            align-items: center; /* Center items vertically */
+            text-align: center; /* Center text */
+            position: relative; /* Required for absolute positioning of the pseudo-element */
+            overflow: hidden; /* Ensure children don't overflow the card */
+        }
+
+            .card2Grey::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-image: url('https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/CampBgLifeTime.png'); /* Background image */
+                background-size: cover; /* Cover the entire area */
+                background-position: top center; /* Start from the top and center horizontally */
+                background-repeat: no-repeat; /* No repeating of the image */
+                filter: grayscale(70%); /* Apply grayscale */
+                z-index: 1; /* Ensure this is below the content */
+            }
+
+            .card2Grey > * {
+                position: relative; /* Required to ensure children are above the pseudo-element */
+                z-index: 2; /* Ensure content appears above the background */
+            }
+
+
+
+        .rounded-imageNormal {
+            margin-left:20px;
+            border-radius: 12px; /* Adjust the value for more or less rounding */
+            /* Optional styles */
+            width: 100px; /* Set a width if needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .rounded-imageGrey {
+            margin-left: 20px;
+            border-radius: 12px; /* Adjust the value for more or less rounding */
+            /* Optional styles */
+            width: 100px; /* Set a width if needed */
+            height: auto; /* Maintain aspect ratio */
+            filter: grayscale(70%); /* Apply grayscale */
+        }
+
+        .subscription-title {
+            padding-left:50px;
+            color:white;
+            font-size: 17px; /* Set your desired font size */
+            /* Optional styles */
+            font-weight: bold; /* Make the font bold if desired */
+        }
+
+        .styled-line
+        {
+            font-size: 25px;
+        }
+
+        .ButtonContainerAsForm
+        {
+            padding-left:20px;
+        }
+
+        .price-container {
+            padding-left:18px;
+            margin-top: -10px;
+            display: flex; /* Use flexbox for layout */
+            align-items: center; /* Align items vertically */
+            justify-content: center; /* Center align horizontally */
+        }
+
+        .amount {
+            color:wheat;
+            font-weight: bold; /* Make the amount bold */
+            font-size: 29px; /* Adjust the size if needed */
+            margin-right: 10px; /* Add space between the amount and frequency */
+        }
+
+        .payment-frequency {
+            color:antiquewhite;
+            font-weight: bold;
+            display: flex; /* Use flexbox for inline layout */
+            flex-direction: column; /* Stack items vertically */
+            font-size: 14px; /* Adjust size for frequency text */
+            max-width: 60px; /* Set a maximum width to prevent exceeding */
+            line-height: 1; /* Set line height to minimize space */
+            overflow: hidden; /* Hide overflow */
+            text-align: left; /* Align text to the left */
+        }
+
+            .payment-frequency span {
+                margin: 0; /* Remove default margin */
+            }
+
+            .payment-method-container
+            {
+                padding-left:20px;
+            }
+
+
+        .payment-method-title
+        {
+            color: white;
+        }
+
+        .payment-methods {
+            padding-top: 10px;
+            display: flex !important; /* Ensure this is a flex container */
+            flex-direction: row !important; /* Arrange images in a row */
+            justify-content: center !important; /* Center items horizontally */
+            align-items: center !important; /* Center items vertically */
+        }
+
+            .payment-methods img {
+                width: 40px; /* Set a fixed width for the images */
+                height: auto; /* Maintain aspect ratio */
+                margin: 0 5px; /* Add horizontal spacing between images */
+            }
+        
+        .buy-button0 {
+            width: 250px;
+            height: 40px;
+            margin-top: 8px;
+            margin-left:80px;
+            font-weight: bold;
+            background-color: #ffdd00; /* Match the h3 background */
+            border: none; /* Remove default button border */
+            font-size: 14px; /* Set the font size similar to h3 */
+            color: #000; /* Set text color */
+            cursor: pointer; /* Change cursor to pointer */
+            text-align: center; /* Align text to the left (optional) */
+            border-radius: 5px; /* Set border radius for curve effect */
+
+        }
+
+            .trusted-member-button:hover {
+                text-decoration: underline; /* Optional: Add underline on hover */
+                background-color: rgba(0, 0, 0, 0.1); /* Optional: Add a light background on hover */
+            }
+
+
+
+        .buy-button1 {
+            width: 250px;
+            height: 40px;
+            margin-top: 8px;
+            margin-left: 80px;
+            font-weight: bold;
+            background-color: #223287; /* Match the h3 background */
+            border: none; /* Remove default button border */
+            font-size: 14px; /* Set the font size similar to h3 */
+            color: #fff; /* Set text color */
+            cursor: pointer; /* Change cursor to pointer */
+            text-align: center; /* Align text to the left (optional) */
+            border-radius: 5px; /* Set border radius for curve effect */
+        }
+
+
+
+
+        .buy-button2 {
+            width: 250px;
+            height: 40px;
+            margin-top: 8px;
+            margin-bottom:20px;
+            font-weight: bold;
+            background-color: #ffdd00; /* Match the h3 background */
+            border: none; /* Remove default button border */
+            font-size: 14px; /* Set the font size similar to h3 */
+            color: #000; /* Set text color */
+            cursor: pointer; /* Change cursor to pointer */
+            text-align: center; /* Align text to the left (optional) */
+            border-radius: 5px; /* Set border radius for curve effect */
+        }
+
+        .trusted-member-button:hover {
+            text-decoration: underline; /* Optional: Add underline on hover */
+            background-color: rgba(0, 0, 0, 0.1); /* Optional: Add a light background on hover */
+        }
+
+
+
+        .buy-button3 {
+            width: 250px;
+            height: 40px;
+            margin-top: 8px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            background-color: #223287; /* Match the h3 background */
+            border: none; /* Remove default button border */
+            font-size: 14px; /* Set the font size similar to h3 */
+            color: #fff; /* Set text color */
+            cursor: pointer; /* Change cursor to pointer */
+            text-align: center; /* Align text to the left (optional) */
+            border-radius: 5px; /* Set border radius for curve effect */
+        }
+
+
+
+
+
+        .pricing-subcontainer {
+            width: 100%; /* Full width */
+            height: 100%; /* Full height of the parent container */
+            overflow: auto; /* Allow scrolling if content exceeds the height */
+            position: relative; /* Keep it relative for normal flow */
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="pricing-container">
+
+
+
+        <div class="pricing-subcontainer">
+
+
+
+
+        <div class="DesktopCards-container">
+
+            <div class="button-container">
+                <!-- First Stripe Buy Button -->
+                <center>
+                    <div class="@(
+    membershipLevel switch {
+        "Monthly Member" => "card0Normal",
+        "Trusted Member" => "card0Grey",
+        "" => "card0Normal",
+        _ => "card0Normal"
+    }
+)">
+                        <center>
+                            <img class="@(
+    membershipLevel switch {
+        "Monthly Member" => "rounded-imageNormal",
+        "Trusted Member" => "rounded-imageGrey",
+        "" => "rounded-imageNormal",
+        _ => "rounded-imageNormal"
+    }
+)" src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/300300.png" alt="Camp Logo">
+                        </center>
+
+
+                        <h2 class="subscription-title">
+                            Camp Member<br>
+                            <span class="styled-line">Monthly</span>
+                        </h2>
+
+
+
+
+
+                        <div class="price-container">
+                            <span class="amount">$1.99</span>
+                            <div class="payment-frequency">
+                                <span>per</span>
+                                <span>month</span>
+                            </div>
+                        </div>
+
+
+                        <form class="ButtonContainerAsForm" method="post">
+                            <center>
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    @if (membershipLevel == "Monthly Member")
+                                    {
+                                        <button type="submit" asp-page-handler="BuyMember" class="buy-button0">Check benefits</button>
+                                    }
+                                    else if (membershipLevel == "Trusted Member")
+                                    {
+                                        <button type="button" class="buy-button1" id="contactSalesButton">Contact Sales</button>
+                                    }
+                                    else if (membershipLevel == "Lifetime Member")
+                                    {
+                                        <button type="button" class="buy-button1" id="contactSalesButton">Contact Sales</button>
+                                    }
+                                    else
+                                    {
+                                        <!-- Hidden input to send a number -->
+                                        <input type="hidden" name="membershipType" value="0" />
+                                        <button type="submit" asp-page-handler="BuyMember" class="buy-button0">Monthly Member</button>
+                                    }
+                                }
+                                else
+                                {
+                                    <button type="submit" asp-page-handler="RouteToLogin" class="buy-button0">Login / Register</button>
+                                }
+                            </center>
+                        </form>
+
+
+
+
+
+                        <div class="payment-method-container">
+                            <div class="payment-method-title">Supported payment methods:</div>
+                            <div class="payment-methods">
+                                <div class="payment-logo">
+                                    <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/AMEX.png" alt="American Express">
+                                </div>
+                                <div class="payment-logo">
+                                    <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/MasterCard.png" alt="MasterCard">
+                                </div>
+                                <div class="payment-logo">
+                                    <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/Visa.png" alt="VISA">
+                                </div>
+                                <div class="payment-logo">
+                                    <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/GooglePay.png" alt="G Pay">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </center>
+
+            </div>
+
+            <div class="button-container">
+                <!-- First Stripe Buy Button -->
+                <center>
+                    <div class="@(
+    membershipLevel switch {
+        "Monthly Member" => "card1Grey",
+        "Trusted Member" => "card1Normal",
+        "" => "card1Normal",
+        _ => "card1Normal"
+    }
+)">
+
+                        <center>
+                            <img class="@(
+    membershipLevel switch {
+        "Monthly Member" => "rounded-imageGrey",
+        "Trusted Member" => "rounded-imageNormal",
+        "" => "rounded-imageNormal",
+        _ => "rounded-imageNormal"
+    }
+)" src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/300300.png" alt="Camp Logo">
+                        </center>
+
+
+
+                        <h2 class="subscription-title">
+                            Camp Member<br>
+                            <span class="styled-line">3 years</span>
+                        </h2>
+
+
+
+
+                        <div class="price-container">
+                            <span class="amount">59</span>
+                            <div class="payment-frequency">
+                                <span>every</span>
+                                <span>3 years</span>
+                            </div>
+                        </div>
+
+
+
+
+                        <form class="ButtonContainerAsForm" method="post">
+                            <center>
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    @if (membershipLevel == "Monthly Member")
+                                    {
+                                        <button type="button" class="buy-button1" id="contactSalesButton">Contact Sales</button>
+                                    }
+                                    else if (membershipLevel == "Trusted Member")
+                                    {
+                                        <button type="submit" asp-page-handler="BuyMember" class="buy-button0">Check benefits</button>
+                                    }
+                                    else if (membershipLevel == "Lifetime Member")
+                                    {
+                                        <button type="button" class="buy-button1" id="contactSalesButton">Contact Sales</button>
+                                    }
+                                    else
+                                    {
+                                        <!-- Hidden input to send a number -->
+                                        <input type="hidden" name="membershipType" value="1" />
+                                        <button type="submit" asp-page-handler="BuyMember" class="buy-button0">Trusted Member</button>
+                                    }
+                                }
+                                else
+                                {
+                                    <button type="submit" asp-page-handler="RouteToLogin" class="buy-button0">Login / Register</button>
+                                }
+                            </center>
+                        </form>
+
+                        <div class="payment-method-container">
+                            <div class="payment-method-title">Supported payment methods:</div>
+                            <div class="payment-methods">
+                                <div class="payment-logo">
+                                    <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/AMEX.png" alt="American Express">
+                                </div>
+                                <div class="payment-logo">
+                                    <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/MasterCard.png" alt="MasterCard">
+                                </div>
+                                <div class="payment-logo">
+                                    <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/Visa.png" alt="VISA">
+                                </div>
+                                <div class="payment-logo">
+                                    <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/GooglePay.png" alt="G Pay">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </center>
+
+            </div>
+
+            <div class="button-container">
+                <!-- First Stripe Buy Button -->
+                <center>
+                    <div class="@(
+    membershipLevel switch {
+        "Monthly Member" => "card2Grey",
+        "Trusted Member" => "card2Grey",
+        "" => "card2Normal",
+        _ => "card2Normal"
+    }
+)">
+                        <!-- Your card content goes here -->
+                        <center>
+                            <img class="@(
+    membershipLevel switch {
+        "Monthly Member" => "rounded-imageGrey",
+        "Trusted Member" => "rounded-imageGrey",
+        "" => "rounded-imageNormal",
+        _ => "rounded-imageNormal"
+    }
+)" src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/300300.png" alt="Camp Logo">
+                        </center>
+
+
+                        <h2 class="subscription-title">
+                            Camp Member<br>
+                            <span class="styled-line">Lifetime</span>
+                        </h2>
+
+
+
+                        <div class="price-container">
+                            <span class="amount">$??.??</span>
+                            <div class="payment-frequency">
+                                <span>life</span>
+                                <span>time</span>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <form class="ButtonContainerAsForm" method="post">
+                            <center>
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    @if (membershipLevel == "Monthly Member")
+                                    {
+                                        <button type="button" class="buy-button1" id="contactSalesButton">Contact Sales</button>
+                                    }
+                                    else if (membershipLevel == "Trusted Member")
+                                    {
+                                        <button type="button" class="buy-button1" id="contactSalesButton">Contact Sales</button>
+                                    }
+                                    else if (membershipLevel == "Lifetime Member")
+                                    {
+                                        <button type="submit" asp-page-handler="BuyMember" class="buy-button0">Check benefits</button>
+                                    }
+                                    else
+                                    {
+                                        <!-- Hidden input to send a number -->
+                                        <input type="hidden" name="membershipType" value="2" />
+                                        <button type="submit" class="buy-button1">Request Discount</button>
+                                    }
+                                }
+                                else
+                                {
+                                    <button type="submit" asp-page-handler="RouteToLogin" class="buy-button0">Login / Register</button>
+                                }
+                            </center>
+                        </form>
+
+
+
+                        
+
+
+                        <div class="payment-method-container">
+                            <div class="payment-method-title">Supported payment methods:</div>
+                            <div class="payment-methods">
+                                <div class="payment-logo">
+                                    <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/AMEX.png" alt="American Express">
+                                </div>
+                                <div class="payment-logo">
+                                    <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/MasterCard.png" alt="MasterCard">
+                                </div>
+                                <div class="payment-logo">
+                                    <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/Visa.png" alt="VISA">
+                                </div>
+                                <div class="payment-logo">
+                                    <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/GooglePay.png" alt="G Pay">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </center>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <!-- Carousel Item 1 -->
+                <div class="carousel-item active text-center">
+
+                    <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/CampBGJustACamp.png" alt="Slide 1 Image" class="img-fluid mx-auto d-block" style="width: 90%;">
+                    <div class="button-container">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            @if (membershipLevel == "Monthly Member")
+                            {
+                                <button type="submit" asp-page-handler="BuyMember" class="buy-button2">Check benefits</button>
+                            }
+                            else if (membershipLevel == "Trusted Member" || membershipLevel == "Lifetime Member")
+                            {
+                                <button type="button" class="buy-button3" id="contactSalesButton">Contact Sales</button>
+                            }
+                            else
+                            {
+                                <input type="hidden" name="membershipType" value="0" />
+                                <button type="submit" asp-page-handler="BuyMember" class="buy-button2">Monthly Member</button>
+                            }
+                        }
+                        else
+                        {
+                            <button type="submit" asp-page-handler="RouteToLogin" class="buy-button2">Login / Register</button>
+                        }
+                    </div>
+                </div>
+
+                <!-- Carousel Item 2 -->
+                <div class="carousel-item text-center">
+                    <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/CampBG3YRCamp.png" alt="Slide 2 Image" class="img-fluid mx-auto d-block" style="width: 90%;">
+                    <div class="button-container">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            @if (membershipLevel == "Monthly Member")
+                            {
+                                <button type="submit" asp-page-handler="BuyMember" class="buy-button2">Check benefits</button>
+                            }
+                            else if (membershipLevel == "Trusted Member" || membershipLevel == "Lifetime Member")
+                            {
+                                <button type="button" class="buy-button3" id="contactSalesButton">Contact Sales</button>
+                            }
+                            else
+                            {
+                                <input type="hidden" name="membershipType" value="0" />
+                                <button type="submit" asp-page-handler="BuyMember" class="buy-button2">Monthly Member</button>
+                            }
+                        }
+                        else
+                        {
+                            <button type="submit" asp-page-handler="RouteToLogin" class="buy-button2">Login / Register</button>
+                        }
+                    </div>
+                </div>
+
+                <!-- Carousel Item 3 -->
+                <div class="carousel-item text-center">
+                    <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/CampBgLifeTime.png" alt="Slide 3 Image" class="img-fluid mx-auto d-block" style="width: 90%;">
+                    <div class="button-container">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            @if (membershipLevel == "Monthly Member")
+                            {
+                                <button type="submit" asp-page-handler="BuyMember" class="buy-button2">Check benefits</button>
+                            }
+                            else if (membershipLevel == "Trusted Member" || membershipLevel == "Lifetime Member")
+                            {
+                                <button type="button" class="buy-button3" id="contactSalesButton">Contact Sales</button>
+                            }
+                            else
+                            {
+                                <input type="hidden" name="membershipType" value="0" />
+                                <button type="submit" asp-page-handler="BuyMember" class="buy-button2">Monthly Member</button>
+                            }
+                        }
+                        else
+                        {
+                            <button type="submit" asp-page-handler="RouteToLogin" class="buy-button2">Login / Register</button>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+
+
+
+
+        <!-- Second container for Cryptocurrency Payment -->
+        <div class="second-container0">
+            <div class="crypto-payment-text">Cryptocurrency Payment</div>
+
+            <div class="coinpayment-container">
+                <div class="form-description-container">
+                    <form action="https://www.coinpayments.net/index.php" method="post">
+                        <input type="hidden" name="cmd" value="_pay_simple">
+                        <input type="hidden" name="reset" value="1">
+                        <input type="hidden" name="merchant" value="a7f2dd3a545f91081408d95e02e481f7">
+                        <input type="hidden" name="item_name" value="Lifetime of Camp Membership">
+                        <input type="hidden" name="item_desc" value="Camp Member subscription to all Enterprise feature for life, Nothing you will need to worry about anymore.">
+                        <input type="hidden" name="currency" value="USD">
+                        <input type="hidden" name="amountf" value="10789.00000000">
+                        <input type="hidden" name="want_shipping" value="0">
+                        <input type="image" src="https://www.coinpayments.net/images/pub/buynow-wide-yellow.png" alt="Buy Now with CoinPayments.net">
+                    </form>
+
+                    <div class="payment-description0">
+                        <span class="highlight-payment">Lifetime plan</span> with <strong>Bitcoin</strong>, <strong>Ethereum</strong>, <strong>Binance Coin</strong>, <strong>USD Coin</strong>, <strong>XRP</strong>, <strong>Dogecoin</strong>, <strong>Litecoin</strong>, <strong>Matic</strong> and more.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Second container for Cryptocurrency Payment -->
+        <div class="second-container1">
+            <div class="crypto-payment-text">Cryptocurrency Payment</div>
+
+            <div class="coinpayment-container">
+                <div class="form-description-container">
+                    <form action="https://www.coinpayments.net/index.php" method="post">
+                        <input type="hidden" name="cmd" value="_pay_simple">
+                        <input type="hidden" name="reset" value="1">
+                        <input type="hidden" name="merchant" value="a7f2dd3a545f91081408d95e02e481f7">
+                        <input type="hidden" name="item_name" value="Lifetime of Camp Membership">
+                        <input type="hidden" name="item_desc" value="Camp Member subscription to all Enterprise feature for life, Nothing you will need to worry about anymore.">
+                        <input type="hidden" name="currency" value="USD">
+                        <input type="hidden" name="amountf" value="10789.00000000">
+                        <input type="hidden" name="want_shipping" value="0">
+                        <input type="image" src="https://www.coinpayments.net/images/pub/buynow-wide-yellow.png" alt="Buy Now with CoinPayments.net">
+                    </form>
+
+
+                </div>
+            </div>
+            <div class="payment-description1">
+                <span class="highlight-payment">Lifetime plan</span> with <strong>Bitcoin</strong>, <strong>Ethereum</strong>, <strong>Binance Coin</strong>, <strong>USD Coin</strong>, <strong>XRP</strong>, <strong>Dogecoin</strong>, <strong>Litecoin</strong>, <strong>Matic</strong> and more.
+            </div>
+        </div>
+
+
+
+        <div class="third-container0">
+            <div class="crypto-payment-text">Donate</div>
+
+            <div class="coinpayment-container">
+                <div class="form-description-container">
+                    <form action="https://www.coinpayments.net/index.php" method="post">
+                        <input type="hidden" name="cmd" value="_pay_simple">
+                        <input type="hidden" name="reset" value="1">
+                        <input type="hidden" name="merchant" value="a7f2dd3a545f91081408d95e02e481f7">
+                        <input type="hidden" name="item_name" value="1 USD Donation for Camp Password Manager">
+                        <input type="hidden" name="item_desc" value="Donate fund is crucial kick starter to our small developer. It will matter, and we thank you for your given !">
+                        <input type="hidden" name="currency" value="USD">
+                        <input type="hidden" name="amountf" value="1.00000000">
+                        <input type="hidden" name="want_shipping" value="0">
+                        <input type="image" src="https://www.coinpayments.net/images/pub/buynow-grey.png" alt="Buy Now with CoinPayments.net">
+                    </form>
+
+                    <div class="payment-description0">
+                        <strong>Just support, but not a member ? <span style="color: blue;">We understand it !</span><br></strong>
+                        We're open for donations here. <strong style="color: green;">Just 1 USD.</strong><br>
+                        This will help kickstarting our small company. Your contribution is matter and will matter!
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="third-container1">
+            <div class="crypto-payment-text">Donate</div>
+
+            <div class="coinpayment-container">
+                <div class="form-description-container">
+                    <form action="https://www.coinpayments.net/index.php" method="post">
+                        <input type="hidden" name="cmd" value="_pay_simple">
+                        <input type="hidden" name="reset" value="1">
+                        <input type="hidden" name="merchant" value="a7f2dd3a545f91081408d95e02e481f7">
+                        <input type="hidden" name="item_name" value="1 USD Donation for Camp Password Manager">
+                        <input type="hidden" name="item_desc" value="Donate is crucial kick starter supportive fund to our small developer. It will matter, and we thank you for your given !">
+                        <input type="hidden" name="currency" value="USD">
+                        <input type="hidden" name="amountf" value="1.00000000">
+                        <input type="hidden" name="want_shipping" value="0">
+                        <input type="image" src="https://www.coinpayments.net/images/pub/buynow-grey.png" alt="Buy Now with CoinPayments.net">
+                    </form>
+
+
+                </div>
+            </div>
+            <div class="payment-description1">
+                <strong>Just support, but not a member ? <span style="color: blue;">We understand it !</span><br></strong>
+                We're open for donations here. <strong style="color: green;">Just 1 USD.</strong><br>
+                This will help kickstarting our small company. Your contribution is matter and will matter!
+            </div>
+        </div>
+
+
+
+
+        </div>
+    </div>
+
+   
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            function updateVisibility() {
+                const desktopContainer = document.querySelector('.DesktopCards-container');
+                const carousel = document.getElementById('carouselExampleCaptions');
+                const secondContainerDesktop = document.querySelector('.second-container0');
+                const thirdContainerDesktop = document.querySelector('.third-container0');
+                const secondContainerMobile = document.querySelector('.second-container1');
+                const thirdContainerMobile = document.querySelector('.third-container1');
+
+                if (window.innerWidth < 768) { // Mobile view
+                    desktopContainer.style.display = 'none'; // Hide desktop container
+                    carousel.style.display = 'block'; // Show carousel
+                    secondContainerDesktop.style.display = 'none'; // Hide desktop second container
+                    thirdContainerDesktop.style.display = 'none'; // Hide desktop third container
+                    secondContainerMobile.style.display = 'block'; // Show mobile second container
+                    thirdContainerMobile.style.display = 'block'; // Show mobile third container
+                } else { // Desktop view
+                    desktopContainer.style.display = 'flex'; // Show desktop container
+                    carousel.style.display = 'none'; // Hide carousel
+                    secondContainerDesktop.style.display = 'block'; // Show desktop second container
+                    thirdContainerDesktop.style.display = 'block'; // Show desktop third container
+                    secondContainerMobile.style.display = 'none'; // Hide mobile second container
+                    thirdContainerMobile.style.display = 'none'; // Hide mobile third container
+                }
+            }
+
+            // Run on initial load
+            updateVisibility();
+
+            // Run on window resize
+            window.addEventListener('resize', updateVisibility);
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,295 @@
+﻿@page
+@model campmember_commercial_webapp_linuximg.Pages.FeaturesModel
+@{
+    ViewData["Title"] = "Features";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css"> <!-- Link to your CSS file for styling -->
+
+    <style>
+        /* Set the body to cover the entire viewport */
+        body {
+            min-height: 100vh; /* Ensures it covers at least the viewport height */
+            width: 100vw;
+            overflow-x: hidden;
+            position: relative;
+            color: white; /* White font color */
+            margin: 0; /* Remove default margin */
+        }
+
+            /* Pseudo-element for background image */
+            body::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/FeatureBG.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed; /* Keep background fixed */
+                z-index: -1; /* Places overlay behind content */
+            }
+
+        /* Section styles */
+        main {
+            position: relative;
+            z-index: 1; /* Ensure content is above the background */
+            padding: 20px; /* Add some padding for content */
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.5); /* Optional: Semi-transparent background for readability */
+            border-radius: 10px; /* Optional: Rounded corners */
+            padding: 20px; /* Add some padding for content */
+            margin-bottom: 20px; /* Ensure spacing below container */
+        }
+
+        .custom-margin {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        .custom-margin-top {
+            margin-top: 20px;
+        }
+
+        .card {
+            height: 650px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 340px;
+            margin: 0 auto;
+        }
+
+
+        .card-img-top {
+            vertical-align: top; /* Ensures it aligns with the top of its container */
+            display: block; /* Resets any inline styling that might interfere */
+            margin-top: 0; /* Remove any extra top margin */
+        }
+
+
+        .card-body {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+            .card-body .btn {
+                margin-top: auto;
+            }
+
+
+
+        .card-title {
+            color: black; /* Set font color to black */
+        }
+
+        .card-text
+        {
+            color: black;
+        }
+
+
+    </style>
+</head>
+<body>
+    <main>
+
+
+        <div class="container">
+            <!-- Key Technology Consideration Section -->
+            <section id="key-technology">
+                <div class="container">
+                    <h2 class="text-center custom-margin">Key Technology Consideration</h2>
+                    <!-- Other content can go here -->
+                </div>
+                <div class="row custom-margin-top">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title-container">
+                                    <h5 class="card-title">Framework from Microsoft .NET</h5>
+                                </div>
+                                <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/NET8.jpg" class="card-img-top" alt="Microsoft .NET Framework">
+                                <p class="card-text">&nbsp;&nbsp;&nbsp;&nbsp;We leverage the robust and reliable Microsoft .NET Framework, particularly .NET 8, to deliver a high-quality and secure experience.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Minimized third-party library</li>
+                                <li class="list-group-item">Wellknown and well maintenance</li>
+                                <li class="list-group-item">High security standards</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">.NET Framework</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">EntraID as Security Provider</h5>
+                                <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/EntraID.jpg" class="card-img-top" alt="EntraID">
+                                <p class="card-text">&nbsp;&nbsp;&nbsp;&nbsp;Our platform integrates with EntraID to provide advanced security features and identity management.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Security from Microsoft</li>
+                                <li class="list-group-item">Services running with AI</li>
+                                <li class="list-group-item">High security standards</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">EntraID</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Running with Microsoft Azure</h5>
+                                <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/Az1.jpg" class="card-img-top" alt="Microsoft Infrastructure">
+                                <p class="card-text">&nbsp;&nbsp;&nbsp;&nbsp;We utilize Microsoft infrastructure to enhance our service's reliability and scalability.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Inheritance of advanced technology</li>
+                                <li class="list-group-item">Enhanced reliability</li>
+                                <li class="list-group-item">Trusted for Enterprise services</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">Azure Service</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section id="features">
+                <div class="container">
+                    <h2 class="text-center custom-margin">Features</h2>
+                    <!-- Other content can go here -->
+                </div>
+                <div class="row custom-margin-top">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Run with .NET Managed Runtime</h5>
+                                <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/NET8.jpg" class="card-img-top" alt="Managed Runtime">
+                                <p class="card-text">&nbsp;&nbsp;&nbsp;&nbsp;Benefit from the robust and secure .NET managed runtime.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Additional high level of program management service</li>
+                                <li class="list-group-item">Optimized performance</li>
+                                <li class="list-group-item">Worry free security updates</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">Trustable Runtime</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Customer kas own Key</h5>
+                                <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/OwnKey1.jpg" class="card-img-top" alt="Customer Vault">
+                                <p class="card-text">&nbsp;&nbsp;&nbsp;&nbsp;Secure your data with a unique encryption key for your vault.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Unique vault keys</li>
+                                <li class="list-group-item">Total control over your data</li>
+                                <li class="list-group-item">Additional key for purchase</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">Secure your Vault</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">No Local Paging</h5>
+                                <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/CloudSolely.jpg" class="card-img-top" alt="No Local Paging">
+                                <p class="card-text">&nbsp;&nbsp;&nbsp;&nbsp;Ensure your sensitive information is not stored locally on your device.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">No worry for local data</li>
+                                <li class="list-group-item">Comfortable</li>
+                                <li class="list-group-item">Safe anywhere if with an internet</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">Solely on Cloud</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row custom-margin-top">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Up to TLS 1.3 and Cert. rotation</h5>
+                                <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/TLS.jpg" class="card-img-top" alt="TLS 1.3">
+                                <p class="card-text">&nbsp;&nbsp;&nbsp;&nbsp;Our infrastructure supports the latest security standards with TLS 1.3.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Worry free from infrastructure</li>
+                                <li class="list-group-item">Encryption as minimum</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">Encrypted as standard</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">MFA with Key-Object Verification</h5>
+                                <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/KeyObject.jpg" class="card-img-top" alt="MFA">
+                                <p class="card-text">&nbsp;&nbsp;&nbsp;&nbsp;Enhance your security with multi-factor authentication using Key-Object Verification.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Additional security layer from built-in</li>
+                                <li class="list-group-item">Leverage 'Something you have'</li>
+                                <li class="list-group-item">'Something you have' never turn to 'Something you know'</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">MFA</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">No Symmetric key use at runtime</h5>
+                                <img src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/KeyType.jpg" class="card-img-top" alt="No Symmetric Key">
+                                <p class="card-text">&nbsp;&nbsp;&nbsp;&nbsp;We utilize advanced encryption methods that eliminate the need for symmetric keys.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Eliminate key exposure</li>
+                                <li class="list-group-item">Correct architecture with handled cost</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">Modern encryption</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+
+
+    </main>
+
+    <script src="~/js/site.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

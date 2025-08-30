@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 480 192" enable-background="new 0 0 480 192" xml:space="preserve">
+<rect x="3" y="3" width="474" height="186"/>
+<path fill="#D2D2D2" d="M6,6h468v180H6V6z M0,192h480V0H0V192z"/>
+
+<g>
+    <g>
+        <text x="52" y="123" font-family="Arial" font-size="82" fill="#FFFFFF">Installer</text>
+        <path d="M12 16L12 4M12 16L8 12M12 16L16 12" stroke="#ff4f00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(335, 22) scale(5.4)"/>
+        <path d="M5 20H19" stroke="#ff4f00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(335, 19) scale(5.4)"/>
+    </g>
+</g>
+</svg>

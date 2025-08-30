@@ -1,0 +1,567 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Camp Password Manager</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" />
+
+
+
+    <style>
+        /* Ensure header is visible */
+        header {
+            position: relative; /* Ensure header is positioned normally */
+            z-index: 1000; /* Higher z-index to be on top of content */
+            height: 50px; /* Fixed height of 80 pixels */
+        }
+
+
+
+        .navbar {
+            position: relative; 
+            height: 70px; /* Adjust the height as needed */
+            color: white; /* Optional: change text color for better visibility */
+            overflow: hidden; /* Ensures the pseudo-element doesn't overflow */
+        }
+
+            /* Pseudo-element for background image with grayscale */
+            .navbar::before {
+                content: ''; /* Required for pseudo-elements */
+                position: absolute; /* Position it absolutely */
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+/*                 background-image: url('https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/Cover_CPM_Long_Editted.png'); */
+/*                 background-size: cover; /* Ensures the image covers the entire navbar */ */
+/*                 background-position: center; /* Centers the image */ */
+/*                 background-repeat: repeat; /* Prevents the image from repeating */ */
+                filter: grayscale(20%); /* Apply grayscale only to the background image */
+                z-index: 1; /* Place it below the text but above the background */
+            }
+
+            /* Pseudo-element for dimming effect */
+            .navbar::after {
+                content: ''; /* Required for pseudo-elements */
+                position: absolute; /* Position it absolutely */
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0, 0, 0, 0.85); /* Adjust the rgba values to change dimming */
+                z-index: 2; /* Ensure it's above the grayscale image but below the text */
+            }
+
+            /* Ensure text is above the dimming layer */
+            .navbar * {
+                position: relative; /* Makes sure text is above the dimmed background */
+                z-index: 3; /* Higher z-index than both pseudo-elements */
+            }
+
+
+
+
+
+
+            .brandLocation
+            {
+                margin-left:17px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            }
+
+        .brand-text
+        {
+            margin-top: -6px;
+            margin-left: 10px;
+            font-size: 25px;
+        }
+
+
+
+
+
+
+
+
+
+
+        .navbar-nav .nav-link {
+            color: white !important; /* Set the text color to white */
+        }
+
+
+
+
+        .HeaderContainer {
+            height: 50px; /* Fixed height of 80 pixels */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+
+
+
+
+
+        /* Ensure the expanded menu stays within the header and drops down properly */
+        .navbar-collapse {
+            max-height: 500px; /* Set a maximum height for the collapsed menu */
+            overflow-y: auto; /* Enable scrolling if the menu exceeds the height */
+            transition: max-height 0.3s ease-in-out; /* Smooth transition when opening */
+        }
+
+
+
+
+        .glow {
+            color: #ffdf00; /* Adjust color to suit the glow effect */
+            text-shadow: 0 0 8px rgba(255, 223, 0, 0.7), 0 0 10px rgba(255, 223, 0, 0.7);
+            font-weight: bold;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* Main content should have padding-bottom to avoid overlap with footer */
+        .main-content {
+            padding-top: 20px; /* Adjust this value to match the height of your header */
+            padding-bottom:59px;
+        }
+
+
+
+
+        
+
+        /* Fixed footer style */
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 59px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start; /* Align content to the left instead of center */
+            padding-left: 20px; /* Add left padding for text */
+            z-index: 1000; /* Ensure footer is above other content */
+            background-color: rgba(0, 0, 0, 0.7); /* TEMPORARILY add background color to debug */
+            color: white; /* Ensure text is visible */
+        }
+
+            /* Pseudo-element for background image with grayscale */
+            footer::before {
+                content: ''; /* Required for pseudo-elements */
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+/*                 background-image: url('https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/Cover_CPM_Long_Editted.png'); */
+/*                 background-size: cover; /* Ensures the image covers the entire footer */ */
+/*                 background-position: center; */
+/*                 background-repeat: no-repeat; */
+                filter: grayscale(20%);
+                z-index: 1;
+                transform: scaleX(-1);
+            }
+
+            /* Pseudo-element for dimming effect */
+            footer::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0, 0, 0, 0.85); /* Adjust the rgba values to change dimming */
+                z-index: 2; /* Ensure it's above the grayscale image but below the text */
+            }
+
+            /* Ensure text and links are above the pseudo-elements */
+            .footer-content,
+            footer a {
+                position: relative;
+                z-index: 3; /* Higher z-index than the background and dimming */
+                color: white; /* Ensure text is visible */
+            }
+
+                footer a:hover {
+                    text-decoration: underline;
+                }
+
+            /* Debugging: Set borders to check dimensions and visibility */
+            footer .footer-content {
+                border: 2px solid red; /* TEMPORARY: Adds a border to the container to verify it's visible */
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .login-button {
+            background-color: #007bff; /* Button color */
+            color: white; /* Text color */
+            border: none; /* Remove border */
+            padding: 10px 20px; /* Padding */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor */
+            transition: background-color 0.3s; /* Smooth transition */
+            position: absolute; /* Absolute positioning */
+            right: 20px; /* Distance from the right */
+            top: 50%; /* Center vertically */
+            transform: translateY(-50%); /* Adjust for vertical centering */
+        }
+
+            .login-button:hover {
+                background-color: #0056b3; /* Darker shade on hover */
+            }
+
+
+
+
+
+        df-messenger {
+            z-index: 999;
+            position: fixed;
+            --df-messenger-font-color: #000;
+            --df-messenger-font-family: Google Sans;
+            --df-messenger-chat-background: #F4B400;
+            --df-messenger-message-user-background: #ff9d00;
+            --df-messenger-message-bot-background: #fff;
+            --df-messenger-send-icon-color: #ff9d00;
+            bottom: 16px;
+            right: 16px;
+        }
+
+
+
+        df-messenger-chat-bubble {
+            --df-messenger-chat-window-box-shadow: 0 10px 40px rgba(0, 0, 0, 0.9);
+            --df-messenger-chat-bubble-icon-color: navajowhite; /* Set your icon color here */
+            --df-messenger-chat-bubble-background: #925F17;
+            --df-messenger-chat-bubble-border-radius: 20px;
+            --df-messenger-chat-bubble-border: 2px solid #804303;
+            --df-messenger-titlebar-background: #fa9911;
+            --df-messenger-titlebar-border: 2px solid #804303;
+            --df-messenger-titlebar-border-bottom: 2px solid #804303;
+            --df-messenger-message-user-font-color: #fdffc9;
+            --df-messenger-message-bot-writing-background: aliceblue;
+            --df-messenger-chat-scroll-button-background: #f5edd3;
+            --df-messenger-bot-avatar: url('https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/300300-circled.png');
+            --df-messenger-user-avatar: url('https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/300300-circled.png');
+        }
+
+
+
+
+        @@media (max-width: 576px) { /* For small screens */
+            .navbar-collapse {
+                background-color: white; /* Make sure the background is consistent */
+                width: 100%; /* Ensure it takes up full width on small screens */
+                position: absolute; /* Position it within the navbar */
+                top: 100%; /* Drop down from the bottom of the header */
+                left: 0; /* Align to the left */
+                z-index: 1000; /* Ensure it stays on top of other elements */
+            }
+        }
+
+
+    </style>
+
+
+
+</head>
+<body>
+    
+
+
+
+    <script>
+        // Function to generate more yellow shades without green
+        function generateYellowShades(numShades) {
+            const shades = [];
+            for (let i = 0; i < numShades; i++) {
+                // Calculate brightness; keep red at 255 and blue at 0
+                const brightness = Math.round(255 - (i * (255 / (numShades - 1)))); // Decrease brightness for darker shades
+                const green = Math.round((brightness / 255) * 50); // Keep green very low to avoid green shades
+
+                // Create the hex color from adjusted brightness
+                const hexColor = `#${((1 << 24) + (255 << 16) + (green << 8)).toString(16).slice(1).toUpperCase()}`;
+                shades.push(hexColor);
+            }
+            return shades;
+        }
+
+        // Example usage
+        const yellowShades = generateYellowShades(20); // Generate 20 shades of yellow
+        console.log(yellowShades); // Output the shades
+
+        // Function to continuously change the bot writing background color
+        function startColorLoop() {
+            const chatBubble = document.querySelector('df-messenger-chat-bubble');
+            let currentIndex = 0;
+
+            // Change color every 60 ms for a smoother transition
+            setInterval(() => {
+                const time = Date.now();
+                const dynamicOpacity = Math.abs(Math.sin(time / 500)); // Vary opacity dynamically
+                const brightnessVariation = Math.abs(Math.sin(time / 300)); // Add brightness variation
+
+                // Update the index based on the time to create a smoother transition
+                currentIndex = Math.floor((time / 60) % yellowShades.length);
+                const currentColor = yellowShades[currentIndex];
+
+                // Create dynamic rgba color
+                const finalColor = `rgba(${parseInt(currentColor.slice(1, 3), 16)}, ${parseInt(currentColor.slice(3, 5), 16)}, ${parseInt(currentColor.slice(5, 7), 16)}, ${dynamicOpacity * brightnessVariation})`; // Combine dynamic opacity and brightness variation
+
+                chatBubble.style.setProperty('--df-messenger-message-bot-writing-background', finalColor);
+            }, 60); // Interval set to 60 ms for smoother transitions
+        }
+
+        // Start the color loop on page load
+        window.addEventListener('load', startColorLoop);
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <header>
+
+
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3">
+
+            <div class="HeaderContainer d-flex justify-content-between align-items-center w-100">
+                <!-- Logo and title -->
+                <a class="navbar-brand text-white d-flex align-items-center" asp-area="" asp-page="/Index">
+                    <img class="brandLocation" src="https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/300300-circled.png" alt="Camp Password Manager Logo" style="width: 50px; height: auto; margin-right: 10px;" />
+                    <span class="brand-text fw-bold">Camp Password Manager</span>
+                </a>
+
+
+
+                <!-- Navbar items - add ID to collapse div -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white @(ViewContext.RouteData.Values["page"].ToString() == "/About" ? "glow" : "")" asp-area="" asp-page="/ProjectVision">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white @(ViewContext.RouteData.Values["page"].ToString() == "/Features" ? "glow" : "")" asp-area="" asp-page="/Features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white @(ViewContext.RouteData.Values["page"].ToString() == "/Pricing" ? "glow" : "")" asp-area="" asp-page="/Pricing">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                @{
+                    var sessionValue = HttpContextAccessor.HttpContext.Session.GetString("SubscriptionPeriod") ?? "";
+                }
+
+
+
+
+
+
+
+
+                <!-- Account name and Login/Logout Button -->
+
+@*                 <div class="ml-auto d-flex align-items-center">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <span class="mr-2">
+                            @(sessionValue ?? "")
+                        </span>
+                        <span class="mr-2">@User.FindFirst("name")?.Value</span>
+
+                        <a class="nav-link text-white" asp-area="" asp-page="/Logout">Logout</a>
+                    }
+                    else
+                    {
+                        <a class="nav-link text-white" asp-area="" asp-page="/Login">Login</a>
+                    }
+                </div> *@
+                
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- Navbar toggler button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+
+
+
+            </div>
+        </nav>
+
+
+
+    </header>
+    
+    <div class="main-content">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <a asp-area="" asp-page="/TermsAndConditions">Terms and Conditions</a>
+                    <span> - </span>
+                    <a asp-area="" asp-page="/PrivacyStatements">Privacy statements</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Dialogflow Chat Widget -->
+        <df-messenger project-id="direct-pixel-430218-e8"
+                      agent-id="ef07ae52-3224-4616-99c5-2c74cd5ab68a"
+                      language-code="en"
+                      max-query-length="-1">
+            <df-messenger-chat-bubble chat-title="Password Manager Representative">
+            </df-messenger-chat-bubble>
+        </df-messenger>
+
+        <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+        <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- Custom script to collapse navbar when clicking outside -->
+    <script>
+        $(document).ready(function() {
+            $(document).click(function(event) {
+                var clickover = $(event.target);
+                var _opened = $(".navbar-collapse").hasClass("show");
+                if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+                    $(".navbar-toggler").click();
+                }
+            });
+        });
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+
+
+
+
+    <script>
+        // Function to update chat window dimensions and bubble size
+        function updateChatWindowDimensions() {
+            var chatBubble = document.querySelector('df-messenger-chat-bubble');
+
+            // Calculate dimensions for desktop
+            var desktopHeight = window.innerHeight * (3 / 4) + 'px';
+            var desktopWidth = window.innerWidth * (2 / 5) + 'px';
+            var desktopBubbleSize = window.innerHeight * (1 / 14) + 'px'; // Set bubble size for desktop based on 1/6 of the height
+
+            // Calculate dimensions for mobile
+            var mobileHeight = window.innerHeight * (8 / 10) + 'px';
+            var mobileWidth = window.innerWidth * (9 / 10) + 'px';
+            var mobileBubbleSize = window.innerHeight * (1 / 11) + 'px'; // Set bubble size for mobile based on 1/6 of the height
+
+            // Apply different styles based on screen width
+            if (window.innerWidth > 768) { // Desktop screens
+                chatBubble.style.setProperty('--df-messenger-chat-window-height', desktopHeight);
+                chatBubble.style.setProperty('--df-messenger-chat-window-width', desktopWidth);
+                chatBubble.style.setProperty('--df-messenger-chat-bubble-size', desktopBubbleSize); // Set bubble size for desktop
+            } else { // Mobile screens
+                chatBubble.style.setProperty('--df-messenger-chat-window-height', mobileHeight);
+                chatBubble.style.setProperty('--df-messenger-chat-window-width', mobileWidth);
+                chatBubble.style.setProperty('--df-messenger-chat-bubble-size', mobileBubbleSize); // Set bubble size for mobile
+            }
+        }
+
+        // Run this function on page load and on window resize
+        window.addEventListener('load', updateChatWindowDimensions);
+        window.addEventListener('resize', updateChatWindowDimensions);
+    </script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

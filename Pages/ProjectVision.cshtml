@@ -1,0 +1,128 @@
+﻿@page
+@model campmember_commercial_webapp_linuximg.Pages.ProjectVisionModel
+@{
+    ViewData["Title"] = "Vision";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+
+    <style>
+        .headerLocation {
+            margin-top: 17px;
+            margin-left: 30px;
+        }
+
+        .subheaderLocation
+        {
+            margin-left: 34px;
+        }
+
+        .parentContainer
+        {
+            margin-top:50px;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .croftteamsSignature
+        {
+            margin-right:40px;
+        }
+
+        /* Container for all sections */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        /* Style for each self-contained section */
+        .grid-item {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+            /* Style for section titles */
+            .grid-item h2 {
+                font-size: 1.5em;
+                margin-bottom: 10px;
+            }
+
+        /* Adjust layout for mobile screens */
+        @@media (max-width: 768px) {
+            .grid-container
+
+        {
+            grid-template-columns: 1fr;
+        }
+
+
+
+
+
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="headerLocation">Vision</h1>
+
+    <p class="subheaderLocation">As a fresh entrant in the industry, we bring innovative solutions and a modern approach. Our new perspective allows us to focus on advanced security and functionality from the ground up.</p>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <h2>AI-Driven From Day One</h2>
+            <p>From the very start, our development has been powered by AI. This early integration ensures that our solutions are at the cutting edge of technology, providing enhanced security and efficiency.</p>
+        </div>
+        <div class="grid-item">
+            <h2>Lifetime Package</h2>
+            <p>Our lifetime package offers long-term value for those who choose it. It includes all future updates and services with a one-time payment, reflecting our commitment to providing ongoing support and innovation.</p>
+        </div>
+        <div class="grid-item">
+            <h2>Comprehensive Project Planning</h2>
+            <p>We’re not just focused on our current offerings. Our vision includes broader support and future enhancements, ensuring our product evolves to meet emerging needs and opportunities.</p>
+        </div>
+        <div class="grid-item">
+            <h2>Modern Technology Integration</h2>
+            <p>Leveraging state-of-the-art technologies like .NET and Microsoft services, we provide a robust and secure platform. This commitment to modern infrastructure helps us deliver reliable and advanced solutions.</p>
+        </div>
+        <div class="grid-item">
+            <h2>AI-Powered Security</h2>
+            <p>Our AI-driven approach to security sets us apart. AI enhances our ability to detect and respond to threats, ensuring that our users benefit from cutting-edge protection.</p>
+        </div>
+        <div class="grid-item">
+            <h2>Standard Support</h2>
+            <p>We offer standard support to assist our users with any issues. This ensures that you receive reliable help whenever needed, maintaining the quality of our service.</p>
+        </div>
+        <div class="grid-item">
+            <h2>Innovative Features</h2>
+            <p>We are continuously developing and integrating new features. Our roadmap includes exciting additions like FIDO integration and enhanced encryption, driven by AI and user feedback.</p>
+        </div>
+        <div class="grid-item">
+            <h2>Investment in Future</h2>
+            <p>Our pricing reflects a commitment to quality and long-term security. Investing in our solution means investing in future-proof technology and ongoing advancements.</p>
+        </div>
+        <div class="grid-item">
+            <h2>Transparent Pricing</h2>
+            <p>While our pricing may seem higher, it represents the value of advanced technology and comprehensive security. We provide a transparent breakdown of costs to help you understand the benefits you’re receiving.</p>
+        </div>
+    </div>
+
+    <div class="parentContainer">
+@*         <h2 class="croftteamsSignature">CroftTeams Development</h2> *@
+    </div>
+
+
+</body>
+</html>

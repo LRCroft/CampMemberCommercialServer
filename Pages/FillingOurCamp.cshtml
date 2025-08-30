@@ -1,0 +1,436 @@
+﻿@page
+@model campmember_commercial_webapp_linuximg.Pages.FillingOurCamp
+
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camp Store</title>
+    <style>
+
+        html {
+            overflow: hidden; /* Prevent scrolling and zooming */
+        }
+
+
+        body {
+            height: 100vh; /* Full height */
+            width: 100vw; /* Prevent body from being larger than the viewport */
+            overflow-x: hidden; /* Hide horizontal overflow */
+            background-image: url('https://storage.googleapis.com/cpmwebsitesharedstorage/PublicResources/Images/Store1.jpg'); /* Use direct path */
+            background-size: cover; /* Cover the entire page */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Prevent tiling */
+            color: white; /* White font color for all text */
+        }
+
+
+        .container {
+            position: relative; /* Create a positioning context for the absolute children */
+            width: 300px; /* Adjust the width as needed */
+            height: 200px; /* Adjust the height as needed */
+        }
+
+        .hidden {
+            display: none; /* This class hides the elements */
+        }
+
+        .join-us,
+        .support-us,
+        .become-member,
+        .help-grow,
+        .thanks,
+        .donate,
+        .store-development,
+        .free-trial,
+        .download,
+        .help-project
+        .coinsDisplayPlocation
+        .formLocation {
+            position: absolute; /* Allow all elements to overlap */
+            top: 0; /* Align them to the top */
+            left: 0; /* Align them to the left */
+            z-index: 1; /* Default z-index */
+        }
+
+
+
+        .coinsDisplaylocation {
+            width:160px;
+            border-radius: 10px;
+        }
+
+        
+
+
+
+
+
+
+        @@keyframes randomRushGlow {
+    0%, 100% {
+        box-shadow: 0 0 12px rgba(255, 255, 153, 0.6), 0 0 25px rgba(255, 255, 153, 0.7), 0 0 35px rgba(255, 255, 153, 0.8), 0 0 40px rgba(255, 255, 153, 1);
+    }
+    7% {
+        box-shadow: 0 0 8px rgba(255, 255, 153, 0.5), 0 0 18px rgba(255, 255, 153, 0.6), 0 0 28px rgba(255, 255, 153, 0.7), 0 0 35px rgba(255, 255, 153, 0.8);
+    }
+    15% {
+        box-shadow: 0 0 20px rgba(255, 255, 153, 0.9), 0 0 35px rgba(255, 255, 153, 1.1), 0 0 45px rgba(255, 255, 153, 1.2), 0 0 60px rgba(255, 255, 153, 1.3);
+    }
+    22% {
+        box-shadow: 0 0 10px rgba(255, 255, 153, 0.4), 0 0 25px rgba(255, 255, 153, 0.5), 0 0 35px rgba(255, 255, 153, 0.6), 0 0 45px rgba(255, 255, 153, 0.7);
+    }
+    33% {
+        box-shadow: 0 0 25px rgba(255, 255, 153, 0.8), 0 0 40px rgba(255, 255, 153, 1), 0 0 55px rgba(255, 255, 153, 1.2), 0 0 70px rgba(255, 255, 153, 1.3);
+    }
+    45% {
+        box-shadow: 0 0 18px rgba(255, 255, 153, 0.6), 0 0 30px rgba(255, 255, 153, 0.7), 0 0 40px rgba(255, 255, 153, 0.9), 0 0 55px rgba(255, 255, 153, 1);
+    }
+    60% {
+        box-shadow: 0 0 30px rgba(255, 255, 153, 1), 0 0 50px rgba(255, 255, 153, 1.2), 0 0 70px rgba(255, 255, 153, 1.4), 0 0 90px rgba(255, 255, 153, 1.6);
+    }
+    72% {
+        box-shadow: 0 0 15px rgba(255, 255, 153, 0.5), 0 0 25px rgba(255, 255, 153, 0.6), 0 0 35px rgba(255, 255, 153, 0.8), 0 0 45px rgba(255, 255, 153, 1);
+    }
+    85% {
+        box-shadow: 0 0 40px rgba(255, 255, 153, 1), 0 0 55px rgba(255, 255, 153, 1.2), 0 0 70px rgba(255, 255, 153, 1.4), 0 0 85px rgba(255, 255, 153, 1.6);
+    }
+    95% {
+        box-shadow: 0 0 10px rgba(255, 255, 153, 0.3), 0 0 20px rgba(255, 255, 153, 0.4), 0 0 30px rgba(255, 255, 153, 0.5), 0 0 40px rgba(255, 255, 153, 0.6);
+    }
+}
+
+.formLocation {
+    z-index: 12;
+    transform: scale(0.22); /* Scale down to 40% of original size */
+    transform-origin: top;
+    animation: randomRushGlow 12s ease-in-out infinite; /* Randomized rush glow */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2); /* Optional background color */
+}
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+
+
+
+
+    <div class="container">
+        <div class="fill-us hidden">Fill us!</div>
+        <div class="support-us hidden">Support us!</div>
+        <div class="Greeting0 hidden">Hi!</div>
+        <div class="help-grow hidden">Help us grow!</div>
+        <div class="thanks hidden">Thanks for coming!</div>
+        <div class="donate hidden">Donate Accepted Here!</div>
+        <div class="store-development hidden">Push our development!</div>
+        <div class="free-trial hidden">Free Trial provided!</div>
+        <div class="download hidden">Download Today!</div>
+        <div class="help-project hidden">Help our Project!</div>
+
+
+        
+
+
+        @if (Model.Balances != null && Model.Balances.Any(b =>
+        b.Value is Dictionary<string, object> balance &&
+        balance.ContainsKey("balancef") &&
+        Convert.ToDecimal(balance["balancef"]) > 0))
+        {
+            // Construct a string to display the formatted balances
+            var balancesDisplay = string.Join(", ", Model.Balances
+            .Where(b => b.Value is Dictionary<string, object> balance &&
+            balance.ContainsKey("balancef") &&
+            Convert.ToDecimal(balance["balancef"]) > 0)
+            .Select(b =>
+            {
+                var balanceValue = (Dictionary<string, object>)b.Value;
+                return $"{b.Key}: {balanceValue["balancef"]}";
+            }));
+
+                // Display the balances in the input box
+            <input class="coinsDisplaylocation" type="text" id="coinsReceived" name="coinsReceived" value="@balancesDisplay" placeholder="Coins received" readonly required>
+        }
+        else if (!string.IsNullOrEmpty(Model.ErrorMessage))
+        {
+            <input class="coinsDisplaylocation" type="text" id="coinsReceived" name="coinsReceived" value="@Model.ErrorMessage" placeholder="Coins received" readonly required>
+        }
+        else
+        {
+                // If there's no balance, provide a default message
+            <input class="coinsDisplaylocation" type="text" id="coinsReceived" name="coinsReceived" value="No coins available" readonly required>
+            <input type="hidden" id="donationState" name="donationState" value="noDonations" />
+        }
+
+
+
+
+
+
+
+
+
+        <form class="formLocation" action="https://www.coinpayments.net/index.php" method="post">
+            <input type="hidden" name="cmd" value="_pay_simple">
+            <input type="hidden" name="reset" value="1">
+            <input type="hidden" name="merchant" value="a7f2dd3a545f91081408d95e02e481f7">
+            <input type="hidden" name="item_name" value="1 USD Donation for Camp Password Manager">
+            <input type="hidden" name="item_desc" value="Donate fund is crucial kick starter to our small developer. It will matter, and we thank you for your given !">
+            <input type="hidden" name="currency" value="USD">
+            <input type="hidden" name="amountf" value="1.00000000">
+            <input type="hidden" name="want_shipping" value="0">
+            <input type="image" src="https://www.coinpayments.net/images/pub/buynow-ani-3.png" alt="Buy Now with CoinPayments.net">
+        </form>
+
+
+    </div>
+
+
+
+
+
+
+
+    <script>
+        // Function to set margins based on screen size
+        function setMargins() {
+            const screenWidth = window.innerWidth;
+            const screenHeight = window.innerHeight;
+
+            // Example margin configurations for each div
+            const marginConfigs = {
+                "fill-us": { top: screenHeight * 0.745, left: screenWidth * -0.028 },
+                "support-us": { top: screenHeight * 0.7, left: screenWidth * 0.115 },
+                "Greeting0": { top: screenHeight * 0.615, left: screenWidth * -0.04 },
+                "help-grow": { top: screenHeight * 0.62, left: screenWidth * -0.105 },
+                "thanks": { top: screenHeight * 0.59, left: screenWidth * 0.17 },
+                "donate": { top: screenHeight * 0.738, left: screenWidth * -0.112 },
+                "store-development": { top: screenHeight * 0.62, left: screenWidth * 0.108 },
+                "free-trial": { top: screenHeight * 0.72, left: screenWidth * 0.17 },
+                "download": { top: screenHeight * 0.63, left: screenWidth * 0.14 },
+                "help-project": { top: screenHeight * 0.62, left: screenWidth * 0.14 },
+                "coinsDisplaylocation": { top: screenHeight * 0.67, left: screenWidth * -0.10 },
+                "formLocation": { top: screenHeight * 0.67, left: screenWidth * -0.039 }
+            };
+
+            // Apply margin settings to each <div> based on the marginConfigs
+            for (const className in marginConfigs) {
+                const element = document.querySelector(`.${className}`);
+                if (element) {
+                    element.style.position = 'absolute'; // Set position to absolute to avoid layout shift
+                    element.style.marginTop = `${marginConfigs[className].top}px`; // Set margin-top
+                    element.style.marginLeft = `${marginConfigs[className].left}px`; // Set margin-left
+                }
+            }
+        }
+
+        // Call the function on page load
+        window.addEventListener('load', setMargins);
+
+        // Call the function on window resize
+        window.addEventListener('resize', setMargins);
+    </script>
+
+
+    <script>
+        // Select all div elements inside the container that have the .hidden class, excluding the form and the input
+        const elements = document.querySelectorAll('.container > div.hidden');
+        let currentIndex = -1; // Start with no element shown
+        const displayDuration = 3000; // Duration to display each message (in milliseconds)
+
+        function getRandomDelay(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        function showRandomElement() {
+            // Hide the currently displayed element
+            if (currentIndex !== -1) {
+                elements[currentIndex].classList.add('hidden');
+            }
+
+            // Set a timeout for the delay before showing the next element
+            const delayDuration = getRandomDelay(4000, 10000); // Random delay between 4 and 10 seconds
+
+            setTimeout(() => {
+                // Generate a random index to display the next element
+                let randomIndex;
+                do {
+                    randomIndex = Math.floor(Math.random() * elements.length);
+                } while (randomIndex === currentIndex); // Ensure it's not the same as the last one
+
+                // Show the new random element
+                elements[randomIndex].classList.remove('hidden');
+                currentIndex = randomIndex; // Update the current index
+            }, delayDuration); // Wait for the random delay duration before showing the next element
+        }
+
+        // Call the function every displayDuration + maximum delay duration
+        setInterval(showRandomElement, displayDuration + 10000); // Max wait time for scheduling
+
+        // Show the first element when the page loads
+        showRandomElement();
+    </script>
+
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var coinsReceivedInput = document.getElementById("coinsReceived");
+            var donationState = document.getElementById("donationState");
+
+            // Initialize the messages array
+            var messages = [];
+
+            // Fill the array with "0 coin(s)" for the first 95 entries
+            for (var i = 0; i < 159; i++) {
+                messages.push("0 coin(s)");
+            }
+
+            // Define the Easter egg messages
+            var easterEggMessages = [
+                "Just a coin, please! ..",
+                "Just one !",
+                "Do it !",
+                "Can we count on you? ..",
+                "H*L*! ..",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                "Hello",
+                "Still 0 coins",
+                "Fetching",
+                "Fetching",
+                "Still 0 coins",
+                "Fetching problem",
+                "Rebooting",
+                "Rebooting",
+                "Rebooting",
+                "Rebooting",
+                "Rebooting",
+                "Rebooting",
+                "coins 0",
+                "100% Discount here",
+                "Given for free now"
+            ];
+
+            // Randomly select 5 positions to insert the Easter egg messages
+            while (easterEggMessages.length > 0) {
+                var randomIndex = Math.floor(Math.random() * 100);
+
+                // Check if the position is already occupied by "0 coin(s)"
+                if (messages[randomIndex] === "0 coin(s)") {
+                    // Replace "0 coin(s)" with an Easter egg message
+                    messages[randomIndex] = easterEggMessages.pop();
+                }
+            }
+
+            // Check the state and implement typing effect
+            if (donationState && donationState.value === "noDonations") {
+                var messageIndex = 0;
+
+                function typeMessage(message) {
+                    var currentIndex = 0;
+
+                    // Clear the input box for the new message
+                    coinsReceivedInput.value = '';
+
+                    // Typing effect: Add characters one by one
+                    var typingInterval = setInterval(function() {
+                        if (currentIndex < message.length) {
+                            coinsReceivedInput.value += message.charAt(currentIndex);
+                            currentIndex++;
+                        } else {
+                            clearInterval(typingInterval);
+                            // Wait longer before erasing the message
+                            setTimeout(function() {
+                                eraseMessage(message); // Call erase after typing is complete
+                            }, 2000); // Wait 2 seconds before erasing (adjust this duration as needed)
+                        }
+                    }, 200); // Adjust the speed of typing here (200 ms per character)
+                }
+
+                function eraseMessage(message) {
+                    var currentIndex = message.length;
+
+                    // Erasing effect: Remove characters one by one
+                    var erasingInterval = setInterval(function() {
+                        if (currentIndex > 0) {
+                            coinsReceivedInput.value = message.substring(0, currentIndex - 1);
+                            currentIndex--;
+                        } else {
+                            clearInterval(erasingInterval);
+                            // Move to a random message after a short pause
+                            setTimeout(function() {
+                                messageIndex = Math.floor(Math.random() * messages.length); // Select a random message index
+                                typeMessage(messages[messageIndex]); // Start typing the next message
+                            }, 500); // Wait 0.5 second before typing the next message
+                        }
+                    }, 100); // Adjust the speed of erasing here (100 ms per character)
+                }
+
+                typeMessage(messages[Math.floor(Math.random() * messages.length)]); // Start the typing effect with a random message
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+        </body>
+</html>
